@@ -47,7 +47,7 @@
 
 ---
 
-## 🧰 Avionics & Technology Arsenal
+## 🧰 Programming Languages & Tech Stack
 
 <div align="center">
 
@@ -74,36 +74,54 @@
 
 ---
 
-## 📊 Flight Telemetry & Performance Analytics
+## 💼 Projects
 
-<div align="center">
+### 💻 Backend Projects
 
-<img height="185" src="https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&show_icons=true&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&icon_color=38bdf8&text_color=c9d1d9&ring_color=00b4ff" alt="GitHub Stats"/>
-<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&layout=compact&langs_count=8&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9" alt="Top Languages"/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-USER_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="User Service"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PRODUCT_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Product Service"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PAYMENT_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Payment Service"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-EMAIL_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Email Service"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-TIC_TAC_TOE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Tic Tac Toe"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PARKING_LOT-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Parking Lot"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-CALCULATOR_APP-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Calculator App"/></a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=gauravmes9a11-alt&background=0A1128&border=1E3A8A&ring=00B4FF&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=00B4FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=7DD3FC" alt="GitHub Streak"/>
+### ⚙️ Test Automation Projects
 
-</div>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PROJECT_NAME-00b4a0?style=for-the-badge&logo=github&labelColor=30363d" alt="Project Name"/></a>
+
+<br/>
+
+### 🤖 AI Projects
+
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PANTRYPAL_RECIPE-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="PantryPal Recipe"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-OPENSTREAM_OTT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="OpenStream OTT"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-SHOPPING_AGENT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Shopping Agent"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-FANTASY_CHARACTER_GENERATOR-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Fantasy Character Generator"/></a>
+
+<br/>
+
+### 🏷️ Google Labs
+
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-LOCATION_INTELLIGENCE_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Location Intelligence Agent"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-COFFEESHOP_AI_BARISTA-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Coffeeshop AI Barista"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-DATA_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Data Agent"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-COFFEESHOP_MANAGER_ASSISTANT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Coffeeshop Manager Assistant"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-SEARCH_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Search Agent"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-PAINT_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Paint Agent"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-GEN_AI_MOD_APP-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Gen AI Mod App"/></a>
+<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-LANGCHAIN_FLUTTER_APP-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="LangChain Flutter App"/></a>
 
 ---
 
-## 📈 Radar Reconnaissance & Contribution Grid
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravmes9a11-alt&bg_color=0a1128&color=38bdf8&line=00b4ff&point=ffffff&area=true&area_color=00b4ff&hide_border=true&title_color=00b4ff" alt="Activity Graph" width="100%"/>
-
-### 🛰️ Tactical Contribution Reconnaissance Drone Patrol
-
-<img src="assets/github-snake-dark.svg" alt="Tactical Contribution Drone Patrol" width="100%"/>
-
-</div>
-
----
-
-## 🚀 Strategic Deployments & Featured Missions
+## 🚀 Strategic Deployments & Flagship Missions
 
 <div align="center">
 
@@ -132,6 +150,53 @@
 | 🌍 **[PEIRL](https://github.com/gauravmes9a11-alt/PEIRL)** | Physics-guided cross-modal satellite image retrieval system built for national hackathons. | `PyTorch` `Computer Vision` `GIS` | `● DEPLOYED` |
 | ✈️ **[Flight-Management-System](https://github.com/gauravmes9a11-alt/Flight-Management-System)** | Interactive flight operations console: gate assignments, route planning, and fleet scheduling. | `Java` `OOP` `Algorithms` | `● OPERATIONAL` |
 | ⚡ **[Drowsiness-Detector](https://github.com/gauravmes9a11-alt/Drowsiness-Detector)** | Edge AI + hardware safety system using MediaPipe EAR and Arduino microcontrollers. | `Python` `MediaPipe` `OpenCV` `Arduino` | `● VERIFIED` |
+
+---
+
+## 📊 Flight Telemetry & Performance Analytics
+
+<div align="center">
+
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&show_icons=true&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&icon_color=38bdf8&text_color=c9d1d9&ring_color=00b4ff" alt="GitHub Stats"/>
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&layout=compact&langs_count=8&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9" alt="Top Languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=gauravmes9a11-alt&background=0A1128&border=1E3A8A&ring=00B4FF&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=00B4FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=7DD3FC" alt="GitHub Streak"/>
+
+</div>
+
+---
+
+## 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravmes9a11-alt&bg_color=0a1128&color=38bdf8&line=00b4ff&point=ffffff&area=true&area_color=00b4ff&hide_border=true&title_color=00b4ff" alt="Activity Graph" width="100%"/>
+
+</div>
+
+---
+
+## 🎮 Arcade Contribution Games
+
+### 🐍 GitHub Contribution Snake
+
+<div align="center">
+
+<img src="assets/github-snake-dark.svg" alt="GitHub Contribution Snake" width="100%"/>
+
+</div>
+
+<br/>
+
+### 👻 Pac-Man Contribution Game
+
+<div align="center">
+
+<img src="assets/pacman-contribution-graph.svg" alt="Pac-Man Contribution Game" width="100%"/>
+
+</div>
 
 ---
 

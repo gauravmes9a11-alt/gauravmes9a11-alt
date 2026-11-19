@@ -1,0 +1,37 @@
+name: Update Arcade Contribution Games
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Arcade Contribution SVGs
+        run: |
+          npx pacman-contribution-graph --platform github --username ${{ github.repository_owner }} --game pacman --gameTheme github-dark -o assets/pacman-contribution-graph.svg
+          npx pacman-contribution-graph --platform github --username ${{ github.repository_owner }} --game snake --gameTheme github-dark -o assets/github-snake-dark.svg
+
+      - name: Commit and push updated assets
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pacman-contribution-graph.svg assets/github-snake-dark.svg
+          git diff-index --quiet HEAD || git commit -m "chore: auto-update arcade contribution graphs [skip ci]"
+          git push
