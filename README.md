@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi 👋, I'm Gaurav S.! ✈️
+# I'm Gaurav Shivakumar! ✈️
 
-<!-- Animated aerospace scene: pilot walks to the launch gate, a Sukhoi takes off, text types below -->
+
 <img src="assets/hero-scene.svg" alt="Animated aerospace scene with a Sukhoi jet" width="100%"/>
 
 <br/><br/>
@@ -18,12 +18,12 @@
 ## 🛰️ About Me
 
 ```text
-> Pilot       : Gaurav S.
+> Pilot       : Gaurav Shivakumar
 > Mission     : build intelligent systems for aerospace & beyond
 > Campus      : B.Tech CSE (AI/ML), PES University, Bengaluru
 > Achievement : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)
 > Ambassador  : E-Cell IIT Bombay
-> Member : Nvdia Developer Member, Google Developer Member, Github Developer Member
+> Member      : Nvdia Developer Member, Google Developer Member, Github Developer Member
 > Status      : cleared for takeoff ✈️
 ```
 
