@@ -53,7 +53,7 @@
 
 ### 🧠 AI, Machine Learning & Mathematical Optimization
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy,opencv&theme=dark" alt="AI & ML Core"/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,matlab,anaconda&theme=dark" alt="AI & ML Core"/>
 </a>
 
 <br/>
@@ -67,7 +67,7 @@
 
 ### ⚡ Frameworks, Simulation & Development Avionics
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,streamlit,react,tailwind,linux,git,github,vscode,docker&theme=dark" alt="Frameworks & Tools"/>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,react,tailwind,threejs,linux,git,github,vscode,docker&theme=dark" alt="Frameworks & Tools"/>
 </a>
 
 </div>
