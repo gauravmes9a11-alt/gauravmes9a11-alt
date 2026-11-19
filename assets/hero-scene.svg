@@ -1,276 +1,647 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 510" width="100%" role="img" aria-label="Animated aerospace scene: a pilot walks to a launch gate and a Sukhoi jet takes off" xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" width="100%" role="img" aria-label="Aerospace Flight Test Command - Sukhoi Su-30MKI Supersonic Launch">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#050a1a"/><stop offset="1" stop-color="#0a1128"/>
+    <!-- Sky & Upper Atmosphere Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="30%" stop-color="#050e26"/>
+      <stop offset="65%" stop-color="#0a173b"/>
+      <stop offset="100%" stop-color="#0d1f50"/>
     </linearGradient>
-    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a465f"/><stop offset="1" stop-color="#232c42"/>
-    </linearGradient>
-    <linearGradient id="jb" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#8fa3c4"/>
-    </linearGradient>
-    <linearGradient id="jw" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#cbd5e1"/><stop offset="1" stop-color="#64748b"/>
-    </linearGradient>
-    <linearGradient id="trail" x1="1" y1="0" x2="0" y2="0">
-      <stop offset="0" stop-color="#bae6fd" stop-opacity=".9"/>
-      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="flame" cx=".9" cy=".5" r=".9">
-      <stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#fde68a"/>
-      <stop offset=".65" stop-color="#fb923c" stop-opacity=".85"/><stop offset="1" stop-color="#ea580c" stop-opacity="0"/>
+
+    <radialGradient id="nebulaGlow" cx="68%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="portal" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#60a5fa" stop-opacity=".9"/><stop offset=".6" stop-color="#2563eb" stop-opacity=".45"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/>
+
+    <!-- Runway & Concrete Ground Tarmac -->
+    <linearGradient id="tarmacGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1324"/>
+      <stop offset="20%" stop-color="#0f1a30"/>
+      <stop offset="100%" stop-color="#060a14"/>
+    </linearGradient>
+
+    <!-- Sukhoi Su-30MKI Metallic Airframe Shading -->
+    <linearGradient id="fuselageGrad" x1="0%" y1="0%" x2="100%" y2="30%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="15%" stop-color="#334155"/>
+      <stop offset="40%" stop-color="#64748b"/>
+      <stop offset="60%" stop-color="#94a3b8"/>
+      <stop offset="85%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="35%" stop-color="#334155"/>
+      <stop offset="75%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="canopyGrad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#0369a1" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#082f49" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="titaniumNozzle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#334155"/>
+      <stop offset="80%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <!-- Supersonic Afterburner Reheat Plasma Plume -->
+    <linearGradient id="abFlame" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="10%" stop-color="#e0f2fe"/>
+      <stop offset="25%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#0284c7"/>
+      <stop offset="70%" stop-color="#f97316"/>
+      <stop offset="88%" stop-color="#dc2626" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="machCore" cx="12%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#67e8f9"/>
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
-    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <linearGradient id="contrailTrail" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="30%" stop-color="#0ea5e9" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#0284c7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="radarBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.5"/>
+      <stop offset="65%" stop-color="#00c0fa" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0072ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Visual FX Filters -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
-    <g id="jet">
-      <rect x="-440" y="-1.5" width="350" height="3" fill="url(#trail)"/>
-      <rect x="-440" y="-4" width="350" height="8" fill="url(#trail)" opacity=".4" filter="url(#glow)"/>
-      <ellipse class="fl" cx="-112" cy="1" rx="52" ry="7" fill="url(#flame)" filter="url(#glow)"/>
-      <ellipse class="fl" cx="-106" cy="1" rx="30" ry="3" fill="#fff"/>
-      <path d="M-72 -36 L-94 -38 L-86 -8 L-48 -8Z" fill="url(#jw)" stroke="#e0f2fe" stroke-width=".8"/>
-      <path d="M-60 -31 L-72 -34 L-65 -9 L-48 -9Z" fill="#94a3b8"/>
-      <rect x="-90" y="-6" width="16" height="12" rx="2" fill="#475569" stroke="#e0f2fe" stroke-width=".8"/>
-      <path d="M-82 -7 L-30 -10 L12 -14 L48 -9 L102 2 L52 10 L-10 12 L-82 8Z" fill="url(#jb)" stroke="#e0f2fe" stroke-width=".9"/>
-      <path d="M-70 1 L90 2" stroke="#38bdf8" stroke-width="2.2" opacity=".9"/>
-      <path d="M20 -14 Q31 -25 46 -12Z" fill="#1e40af" stroke="#bfdbfe" stroke-width=".8"/>
-      <path d="M26 -15 Q32 -21 38 -14Z" fill="#60a5fa" opacity=".8"/>
-      <path d="M32 9 L-40 27 L-60 12 L-14 9Z" fill="url(#jw)" stroke="#e0f2fe" stroke-width=".8"/>
-      <circle cx="-10" cy="2" r="2" fill="#38bdf8"/><circle cx="-50" cy="2" r="2" fill="#38bdf8"/>
-      <circle cx="98" cy="2" r="1.7" fill="#ef4444" class="blink"/><circle cx="-90" cy="-35" r="1.8" fill="#ef4444" class="blink"/>
+    <filter id="burnerBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur2"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur1"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Master Sukhoi Su-30MKI Fighter Component -->
+    <g id="sukhoiFighter">
+      <!-- Afterburner Engine Reheat System -->
+      <g id="burnerPlumes" class="afterburnerSys">
+        <!-- Supersonic Ionization Contrails -->
+        <polygon points="-460,-1.5 -112,-1.5 -112,1.5 -460,1.5" fill="url(#contrailTrail)"/>
+        <polygon points="-400,-7 -112,-3 -112,3 -400,7" fill="url(#contrailTrail)" opacity="0.6"/>
+
+        <!-- Upper Saturn AL-31FP Turbofan Afterburner -->
+        <g transform="translate(-112, -8)" class="flameFlicker">
+          <polygon points="0,-7 -140,-12 -175,-3 -140,5 0,7" fill="url(#abFlame)" filter="url(#burnerBlur)"/>
+          <ellipse cx="-48" cy="0" rx="48" ry="6" fill="url(#machCore)"/>
+          <!-- Supersonic Mach Diamonds -->
+          <polygon points="-12,0 -23,-3.2 -34,0 -23,3.2" fill="#ffffff" filter="url(#neonGlow)"/>
+          <polygon points="-40,0 -49,-2.8 -58,0 -49,2.8" fill="#e0f2fe" opacity="0.95"/>
+          <polygon points="-64,0 -72,-2.3 -80,0 -72,2.3" fill="#bae6fd" opacity="0.85"/>
+          <polygon points="-86,0 -93,-1.8 -100,0 -93,1.8" fill="#7dd3fc" opacity="0.7"/>
+          <polygon points="-106,0 -112,-1.2 -118,0 -112,1.2" fill="#38bdf8" opacity="0.5"/>
+        </g>
+
+        <!-- Lower Saturn AL-31FP Turbofan Afterburner -->
+        <g transform="translate(-112, 9)" class="flameFlicker">
+          <polygon points="0,-7 -140,-12 -175,-3 -140,5 0,7" fill="url(#abFlame)" filter="url(#burnerBlur)"/>
+          <ellipse cx="-48" cy="0" rx="48" ry="6" fill="url(#machCore)"/>
+          <!-- Supersonic Mach Diamonds -->
+          <polygon points="-12,0 -23,-3.2 -34,0 -23,3.2" fill="#ffffff" filter="url(#neonGlow)"/>
+          <polygon points="-40,0 -49,-2.8 -58,0 -49,2.8" fill="#e0f2fe" opacity="0.95"/>
+          <polygon points="-64,0 -72,-2.3 -80,0 -72,2.3" fill="#bae6fd" opacity="0.85"/>
+          <polygon points="-86,0 -93,-1.8 -100,0 -93,1.8" fill="#7dd3fc" opacity="0.7"/>
+          <polygon points="-106,0 -112,-1.2 -118,0 -112,1.2" fill="#38bdf8" opacity="0.5"/>
+        </g>
+      </g>
+
+      <!-- Wingtip Condensation Vapor Ribbons -->
+      <path d="M-84,-44 Q-145,-45 -230,-43" stroke="#e0f2fe" stroke-width="1.8" fill="none" opacity="0.75" stroke-dasharray="10 5"/>
+      <path d="M-44,38 Q-105,42 -210,44" stroke="#e0f2fe" stroke-width="1.8" fill="none" opacity="0.75" stroke-dasharray="10 5"/>
+
+      <!-- Twin Vertical Stabilizers (Canted Outward) -->
+      <!-- Starboard Fin (Far) -->
+      <polygon points="-78,-16 -115,-50 -98,-52 -54,-18" fill="#334155" stroke="#475569" stroke-width="0.8"/>
+      <polygon points="-115,-50 -98,-52 -100,-46 -113,-45" fill="#0284c7"/>
+
+      <!-- Delta Swept Wings with LERX (Leading-Edge Root Extensions) -->
+      <!-- Starboard Wing -->
+      <polygon points="-28,-12 -86,-44 -100,-43 -68,-12" fill="url(#wingGrad)" stroke="#64748b" stroke-width="0.8"/>
+      <!-- Pylon & Astra BVR Missile (Starboard) -->
+      <rect x="-74" y="-38" width="30" height="2.8" rx="1.2" fill="#f1f5f9" stroke="#0284c7" stroke-width="0.5"/>
+      <polygon points="-44,-38 -39,-36.6 -44,-35.2" fill="#ef4444"/>
+
+      <!-- Port Wing (Fore) -->
+      <polygon points="16,6 -44,39 -72,38 -22,10" fill="url(#wingGrad)" stroke="#64748b" stroke-width="0.8"/>
+      <!-- Pylon & Astra BVR Missile (Port) -->
+      <rect x="-44" y="32" width="30" height="2.8" rx="1.2" fill="#f1f5f9" stroke="#0284c7" stroke-width="0.5"/>
+      <polygon points="-14,32 -9,33.4 -14,34.8" fill="#ef4444"/>
+
+      <!-- Dual Titanium Thrust-Vectoring Exhaust Nozzles -->
+      <rect x="-116" y="-14" width="28" height="11" rx="2" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
+      <rect x="-116" y="3" width="28" height="11" rx="2" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
+      <line x1="-116" y1="-14" x2="-104" y2="-14" stroke="#f59e0b" stroke-width="1.2"/>
+      <line x1="-116" y1="14" x2="-104" y2="14" stroke="#f59e0b" stroke-width="1.2"/>
+
+      <!-- Aerodynamic Main Fuselage Body (Blended Wing-Body) -->
+      <path d="M-108,-15 L-62,-17 L-6,-15 L46,-10 L108,-4 L142,0 L108,4 L46,10 L-6,15 L-62,17 L-108,15 Z" fill="url(#fuselageGrad)" stroke="#94a3b8" stroke-width="1"/>
+
+      <!-- Chined LERX & Central Spine Fairing -->
+      <path d="M-82,-7 L-12,-9 L56,-5 L112,0 L56,5 L-12,9 L-82,7 Z" fill="#475569" opacity="0.65"/>
+
+      <!-- Port Vertical Stabilizer (Near) -->
+      <polygon points="-68,-4 -106,-40 -88,-42 -40,-6" fill="url(#fuselageGrad)" stroke="#94a3b8" stroke-width="0.9"/>
+      <polygon points="-106,-40 -88,-42 -90,-36 -104,-35" fill="#38bdf8"/>
+      <rect x="-85" y="-32" width="16" height="3" fill="#f59e0b" opacity="0.9"/>
+
+      <!-- Tandem Bubble Cockpit Canopy -->
+      <path d="M24,-8 Q50,-19 82,-10 L92,-3 Q64,-2 24,-4 Z" fill="url(#canopyGrad)" stroke="#bae6fd" stroke-width="1.1" filter="url(#neonGlow)"/>
+      <ellipse cx="65" cy="-7" rx="3.5" ry="4.5" fill="#0f172a"/>
+      <ellipse cx="44" cy="-8" rx="3.5" ry="4.5" fill="#0f172a"/>
+      <path d="M67,-8 L69,-6 L66,-5" stroke="#38bdf8" stroke-width="0.8" fill="none"/>
+
+      <!-- Radome Nose Cone & Supersonic Pitot Probe -->
+      <path d="M108,-4 L142,0 L108,4 Z" fill="#334155" stroke="#64748b" stroke-width="0.8"/>
+      <line x1="142" y1="0" x2="164" y2="0" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="92" cy="-5" r="2.8" fill="#0284c7" stroke="#e0f2fe" stroke-width="0.6"/>
+
+      <!-- Active Strobe & Navigation Beacons -->
+      <circle cx="-86" cy="-44" r="2.2" fill="#ef4444" class="strobeRed"/>
+      <circle cx="-44" cy="39" r="2.2" fill="#22c55e" class="strobeGreen"/>
+      <circle cx="-106" cy="-41" r="2.5" fill="#ffffff" class="strobeWhite"/>
+      <circle cx="141" cy="0" r="1.5" fill="#38bdf8" class="pulseCyan"/>
     </g>
   </defs>
 
-  <style>
-    .mono{font-family:'Courier New',Consolas,monospace;font-weight:700}
-    .tw{animation:tw 3s ease-in-out infinite}
-    @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
-    .blink{animation:bl 1s steps(1) infinite}
-    @keyframes bl{0%{opacity:1}50%{opacity:0}}
-    .fl{transform-box:fill-box;transform-origin:right center;animation:fl .12s ease-in-out infinite alternate}
-    @keyframes fl{from{transform:scaleX(.8);opacity:.85}to{transform:scaleX(1.25);opacity:1}}
-    .bob{animation:bob 2.4s ease-in-out infinite}
-    @keyframes bob{0%,100%{transform:translateY(-4px)}50%{transform:translateY(4px)}}
-    .dish{animation:dish 5s ease-in-out infinite}
-    @keyframes dish{0%,100%{transform:rotate(-18deg)}50%{transform:rotate(14deg)}}
-    .scr{animation:scr 1.6s steps(1) infinite}
-    @keyframes scr{0%{opacity:.9}25%{opacity:.3}50%{opacity:.8}75%{opacity:.45}}
-    .pt{animation:pt 2.8s ease-in-out infinite}
-    @keyframes pt{0%,100%{opacity:.35}50%{opacity:.75}}
-    .ring{animation:ring 14s linear infinite}
-    @keyframes ring{0%,40%{opacity:.55;transform:scale(1)}48%{opacity:1;transform:scale(1.15)}56%{opacity:.55;transform:scale(1)}100%{opacity:.55}}
-    .shock{transform-box:fill-box;transform-origin:center;animation:shock 14s linear infinite;opacity:0}
-    @keyframes shock{0%,49%{opacity:0;transform:scale(.4)}50%{opacity:.9;transform:scale(.4)}60%{opacity:0;transform:scale(2.6)}100%{opacity:0}}
-    /* pilot */
-    .pilot{animation:pilot 14s linear infinite}
-    @keyframes pilot{0%{transform:translate(150px,392px) scale(1);opacity:0}2%{opacity:1}44%{transform:translate(722px,392px) scale(1);opacity:1}48%{transform:translate(772px,380px) scale(.55);opacity:0}100%{transform:translate(772px,380px) scale(.55);opacity:0}}
-    .la{animation:la .7s ease-in-out infinite alternate} .lb{animation:la .7s ease-in-out infinite alternate-reverse}
-    @keyframes la{from{transform:rotate(-26deg)}to{transform:rotate(26deg)}}
-    .aa{animation:aa .7s ease-in-out infinite alternate-reverse}
-    @keyframes aa{from{transform:rotate(-30deg)}to{transform:rotate(30deg)}}
-    .pbob{animation:pbob .35s ease-in-out infinite alternate}
-    @keyframes pbob{from{transform:translateY(0)}to{transform:translateY(-2px)}}
-    /* jets */
-    .cruise{animation:cruise 14s linear infinite}
-    @keyframes cruise{0%{transform:translate(-300px,92px)}46%{transform:translate(1180px,92px)}100%{transform:translate(1180px,92px)}}
-    .launch{animation:launch 14s linear infinite;opacity:0}
-    @keyframes launch{0%,50%{opacity:0;transform:translate(770px,300px) rotate(-30deg) scale(.25)}51%{opacity:1;transform:translate(770px,300px) rotate(-30deg) scale(.25)}66%{opacity:1;transform:translate(1250px,-150px) rotate(-30deg) scale(1.1)}67%,100%{opacity:0;transform:translate(1250px,-150px) rotate(-30deg) scale(1.1)}}
-    
-    .t0{animation:t0op 16s linear infinite}
-    @keyframes t0op{0%{opacity:0}0%{opacity:1}22.1%{opacity:0}100%{opacity:0}}
-    .c0{animation:c0 16s linear infinite}
-    @keyframes c0{0%{transform:translateX(0);opacity:0}0%{transform:translateX(0);opacity:1;animation-timing-function:steps(29,end)}11%{transform:translateX(382.8px);opacity:1}11.1%{transform:translateX(382.8px);opacity:0}100%{transform:translateX(382.8px);opacity:0}}
-    .k0{animation:k0 16s linear infinite}
-    @keyframes k0{0%{transform:translateX(0);opacity:0}0%{transform:translateX(0);opacity:1;animation-timing-function:steps(29,end)}11%{transform:translateX(382.8px);opacity:1}22%{transform:translateX(382.8px);opacity:1}22.1%{transform:translateX(382.8px);opacity:0}100%{opacity:0}}
-    .t1{animation:t1op 16s linear infinite}
-    @keyframes t1op{0%{opacity:0}24.9%{opacity:0}25%{opacity:1}47.1%{opacity:0}100%{opacity:0}}
-    .c1{animation:c1 16s linear infinite}
-    @keyframes c1{0%{transform:translateX(0);opacity:0}24.9%{transform:translateX(0);opacity:0}25%{transform:translateX(0);opacity:1;animation-timing-function:steps(30,end)}36%{transform:translateX(396.0px);opacity:1}36.1%{transform:translateX(396.0px);opacity:0}100%{transform:translateX(396.0px);opacity:0}}
-    .k1{animation:k1 16s linear infinite}
-    @keyframes k1{0%{transform:translateX(0);opacity:0}24.9%{transform:translateX(0);opacity:0}25%{transform:translateX(0);opacity:1;animation-timing-function:steps(30,end)}36%{transform:translateX(396.0px);opacity:1}47%{transform:translateX(396.0px);opacity:1}47.1%{transform:translateX(396.0px);opacity:0}100%{opacity:0}}
-    .t2{animation:t2op 16s linear infinite}
-    @keyframes t2op{0%{opacity:0}49.9%{opacity:0}50%{opacity:1}72.1%{opacity:0}100%{opacity:0}}
-    .c2{animation:c2 16s linear infinite}
-    @keyframes c2{0%{transform:translateX(0);opacity:0}49.9%{transform:translateX(0);opacity:0}50%{transform:translateX(0);opacity:1;animation-timing-function:steps(27,end)}61%{transform:translateX(356.4px);opacity:1}61.1%{transform:translateX(356.4px);opacity:0}100%{transform:translateX(356.4px);opacity:0}}
-    .k2{animation:k2 16s linear infinite}
-    @keyframes k2{0%{transform:translateX(0);opacity:0}49.9%{transform:translateX(0);opacity:0}50%{transform:translateX(0);opacity:1;animation-timing-function:steps(27,end)}61%{transform:translateX(356.4px);opacity:1}72%{transform:translateX(356.4px);opacity:1}72.1%{transform:translateX(356.4px);opacity:0}100%{opacity:0}}
-    .t3{animation:t3op 16s linear infinite}
-    @keyframes t3op{0%{opacity:0}74.9%{opacity:0}75%{opacity:1}97.1%{opacity:0}100%{opacity:0}}
-    .c3{animation:c3 16s linear infinite}
-    @keyframes c3{0%{transform:translateX(0);opacity:0}74.9%{transform:translateX(0);opacity:0}75%{transform:translateX(0);opacity:1;animation-timing-function:steps(32,end)}86%{transform:translateX(422.4px);opacity:1}86.1%{transform:translateX(422.4px);opacity:0}100%{transform:translateX(422.4px);opacity:0}}
-    .k3{animation:k3 16s linear infinite}
-    @keyframes k3{0%{transform:translateX(0);opacity:0}74.9%{transform:translateX(0);opacity:0}75%{transform:translateX(0);opacity:1;animation-timing-function:steps(32,end)}86%{transform:translateX(422.4px);opacity:1}97%{transform:translateX(422.4px);opacity:1}97.1%{transform:translateX(422.4px);opacity:0}100%{opacity:0}}
-  </style>
+  <style><![CDATA[
+    /* Global Fonts & Styling */
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace; font-size: 13px; font-weight: 600; }
+    .hudText { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; font-size: 11px; fill: #38bdf8; letter-spacing: 1px; }
 
-  <rect width="900" height="510" fill="#0a1128"/>
-  <rect width="900" height="420" fill="url(#sky)"/>
-  <g>
-    <circle cx="471" cy="149" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:1.81s;animation-duration:4.57s"/>
-    <circle cx="202" cy="53" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:2.52s;animation-duration:4.38s"/>
-    <circle cx="104" cy="120" r="1" fill="#dbeafe" class="tw" style="animation-delay:0.57s;animation-duration:3.62s"/>
-    <circle cx="718" cy="168" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:2.38s;animation-duration:3.19s"/>
-    <circle cx="471" cy="163" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:2.49s;animation-duration:4.5s"/>
-    <circle cx="72" cy="21" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:0.76s;animation-duration:2.73s"/>
-    <circle cx="38" cy="124" r="1" fill="#dbeafe" class="tw" style="animation-delay:1.76s;animation-duration:4.53s"/>
-    <circle cx="539" cy="65" r="1" fill="#dbeafe" class="tw" style="animation-delay:2.0s;animation-duration:3.99s"/>
-    <circle cx="476" cy="77" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.99s;animation-duration:4.99s"/>
-    <circle cx="868" cy="27" r="1" fill="#dbeafe" class="tw" style="animation-delay:1.26s;animation-duration:2.69s"/>
-    <circle cx="303" cy="13" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:2.25s;animation-duration:2.32s"/>
-    <circle cx="118" cy="80" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:0.27s;animation-duration:2.05s"/>
-    <circle cx="709" cy="6" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:0.84s;animation-duration:4.73s"/>
-    <circle cx="489" cy="102" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:1.68s;animation-duration:3.7s"/>
-    <circle cx="211" cy="75" r="1" fill="#dbeafe" class="tw" style="animation-delay:0.35s;animation-duration:3.0s"/>
-    <circle cx="427" cy="36" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:0.99s;animation-duration:2.3s"/>
-    <circle cx="69" cy="125" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:0.71s;animation-duration:3.68s"/>
-    <circle cx="466" cy="136" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:3.94s;animation-duration:4.31s"/>
-    <circle cx="437" cy="170" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:0.47s;animation-duration:3.26s"/>
-    <circle cx="225" cy="6" r="1" fill="#dbeafe" class="tw" style="animation-delay:3.46s;animation-duration:4.92s"/>
-    <circle cx="614" cy="83" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:0.84s;animation-duration:3.18s"/>
-    <circle cx="882" cy="160" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:0.17s;animation-duration:2.44s"/>
-    <circle cx="460" cy="72" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:3.09s;animation-duration:2.99s"/>
-    <circle cx="311" cy="104" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:0.3s;animation-duration:2.63s"/>
-    <circle cx="659" cy="68" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:2.41s;animation-duration:3.12s"/>
-    <circle cx="472" cy="38" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.33s;animation-duration:2.41s"/>
-    <circle cx="403" cy="52" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:1.24s;animation-duration:2.69s"/>
-    <circle cx="633" cy="69" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:0.63s;animation-duration:3.89s"/>
-    <circle cx="575" cy="56" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.53s;animation-duration:3.81s"/>
-    <circle cx="439" cy="18" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:0.44s;animation-duration:3.54s"/>
-    <circle cx="269" cy="67" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:1.03s;animation-duration:4.47s"/>
-    <circle cx="618" cy="131" r="1" fill="#dbeafe" class="tw" style="animation-delay:2.08s;animation-duration:4.79s"/>
-    <circle cx="78" cy="38" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:1.92s;animation-duration:3.96s"/>
-    <circle cx="638" cy="163" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.12s;animation-duration:4.75s"/>
-    <circle cx="216" cy="10" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.08s;animation-duration:3.34s"/>
-    <circle cx="69" cy="17" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:1.13s;animation-duration:3.59s"/>
-    <circle cx="142" cy="29" r="1" fill="#dbeafe" class="tw" style="animation-delay:0.55s;animation-duration:3.35s"/>
-    <circle cx="346" cy="139" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:2.36s;animation-duration:4.77s"/>
-    <circle cx="494" cy="97" r="1" fill="#dbeafe" class="tw" style="animation-delay:3.85s;animation-duration:2.06s"/>
-    <circle cx="659" cy="25" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:0.27s;animation-duration:2.93s"/>
-    <circle cx="147" cy="24" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.81s;animation-duration:3.1s"/>
-    <circle cx="53" cy="39" r="1" fill="#dbeafe" class="tw" style="animation-delay:1.41s;animation-duration:4.06s"/>
-    <circle cx="87" cy="112" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:3.45s;animation-duration:3.72s"/>
-    <circle cx="647" cy="103" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:2.33s;animation-duration:3.83s"/>
-    <circle cx="90" cy="29" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:3.97s;animation-duration:4.64s"/>
-    <circle cx="753" cy="90" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.74s;animation-duration:4.08s"/>
-    <circle cx="476" cy="118" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.35s;animation-duration:2.25s"/>
-    <circle cx="776" cy="137" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.24s;animation-duration:2.26s"/>
-    <circle cx="30" cy="64" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.99s;animation-duration:3.84s"/>
-    <circle cx="505" cy="71" r="0.6" fill="#dbeafe" class="tw" style="animation-delay:1.47s;animation-duration:2.43s"/>
-    <circle cx="634" cy="57" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:3.02s;animation-duration:3.03s"/>
-    <circle cx="460" cy="133" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:1.31s;animation-duration:4.0s"/>
-    <circle cx="211" cy="168" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:3.21s;animation-duration:4.26s"/>
-    <circle cx="213" cy="60" r="1.3" fill="#dbeafe" class="tw" style="animation-delay:0.88s;animation-duration:4.76s"/>
-    <circle cx="222" cy="40" r="0.8" fill="#dbeafe" class="tw" style="animation-delay:1.99s;animation-duration:4.51s"/>
+    /* Flashing Navigation Strobes */
+    .strobeRed { animation: flashRed 1.2s steps(1) infinite; }
+    @keyframes flashRed { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 4px #ef4444); } 51%, 100% { opacity: 0.15; } }
+
+    .strobeGreen { animation: flashGreen 1.2s steps(1) infinite; }
+    @keyframes flashGreen { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 4px #22c55e); } 51%, 100% { opacity: 0.15; } }
+
+    .strobeWhite { animation: flashWhite 0.8s steps(1) infinite; }
+    @keyframes flashWhite { 0%, 20% { opacity: 1; filter: drop-shadow(0 0 6px #fff); } 21%, 100% { opacity: 0.1; } }
+
+    .pulseCyan { animation: pulseCy 2s ease-in-out infinite; }
+    @keyframes pulseCy { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; filter: drop-shadow(0 0 5px #38bdf8); } }
+
+    /* Acoustic Reheat Vibration */
+    .flameFlicker { animation: abRumble 0.1s ease-in-out infinite alternate; }
+    @keyframes abRumble { from { transform: scaleX(0.96) scaleY(0.97); } to { transform: scaleX(1.04) scaleY(1.03); } }
+
+    /* Afterburner Reheat Power Modulation */
+    .afterburnerSys { animation: abThrust 15s linear infinite; }
+    @keyframes abThrust {
+      0%, 28%  { opacity: 0.35; transform: scaleX(0.5); }
+      34%      { opacity: 0.85; transform: scaleX(0.9); }
+      38%, 62% { opacity: 1.0; transform: scaleX(1.05); }
+      63%, 66% { opacity: 0; }
+      67%, 94% { opacity: 0.8; transform: scaleX(0.85); }
+      95%, 100%{ opacity: 0; }
+    }
+
+    /* Starfield Twinkle */
+    .starFast { animation: twFast 2.5s ease-in-out infinite alternate; }
+    .starMid  { animation: twMid 4s ease-in-out infinite alternate; }
+    .starSlow { animation: twSlow 6s ease-in-out infinite alternate; }
+    @keyframes twFast { from { opacity: 0.2; } to { opacity: 1; } }
+    @keyframes twMid  { from { opacity: 0.15; } to { opacity: 0.9; } }
+    @keyframes twSlow { from { opacity: 0.1; } to { opacity: 0.7; } }
+
+    /* Orbital Satellite */
+    .satellite { animation: satPass 24s linear infinite; }
+    @keyframes satPass {
+      0%   { transform: translate(-40px, 30px); opacity: 0; }
+      5%   { opacity: 0.85; }
+      90%  { opacity: 0.85; }
+      100% { transform: translate(960px, 120px); opacity: 0; }
+    }
+
+    /* ATC Radar Tower Parabolic Rotation & PPI Sweep */
+    .dishRotate { transform-origin: 110px 248px; animation: dishSweep 6s ease-in-out infinite alternate; }
+    @keyframes dishSweep { 0% { transform: rotate(-35deg); } 100% { transform: rotate(35deg); } }
+
+    .radarSweepBeam { transform-origin: 110px 248px; animation: sweepBeam 6s linear infinite; }
+    @keyframes sweepBeam {
+      0%   { transform: rotate(0deg); opacity: 0.55; }
+      50%  { opacity: 0.85; }
+      100% { transform: rotate(360deg); opacity: 0.55; }
+    }
+
+    /* Runway Sequenced Approach Lights (ALS "The Rabbit") */
+    .runwaySeq1 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.0s; }
+    .runwaySeq2 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.2s; }
+    .runwaySeq3 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.4s; }
+    .runwaySeq4 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.6s; }
+    .runwaySeq5 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.8s; }
+    .runwaySeq6 { animation: rwyPulse 1.5s linear infinite; animation-delay: 1.0s; }
+    .runwaySeq7 { animation: rwyPulse 1.5s linear infinite; animation-delay: 1.2s; }
+    @keyframes rwyPulse {
+      0%, 100% { fill: #0284c7; opacity: 0.25; }
+      30%      { fill: #38bdf8; opacity: 1; filter: drop-shadow(0 0 6px #38bdf8); }
+      60%      { fill: #0284c7; opacity: 0.25; }
+    }
+
+    /* Master Sukhoi Flight Profile (15s Loop) */
+    .fighterMission {
+      transform-origin: 0px 0px;
+      animation: flightProfile 15s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes flightProfile {
+      0% {
+        transform: translate(-260px, 352px) scale(0.68) rotate(0deg);
+        opacity: 0;
+      }
+      4% {
+        transform: translate(-60px, 352px) scale(0.72) rotate(0deg);
+        opacity: 1;
+      }
+      28% {
+        transform: translate(320px, 350px) scale(0.78) rotate(-2deg);
+        opacity: 1;
+      }
+      38% {
+        /* Rotation & Lift-Off */
+        transform: translate(520px, 335px) scale(0.85) rotate(-14deg);
+        opacity: 1;
+      }
+      54% {
+        /* High-Rate Climb with Full Reheat */
+        transform: translate(840px, 190px) scale(0.96) rotate(-26deg);
+        opacity: 1;
+      }
+      62% {
+        transform: translate(1050px, 80px) scale(1.05) rotate(-30deg);
+        opacity: 0;
+      }
+      63% {
+        /* High-Altitude Supersonic Stratospheric Ingress */
+        transform: translate(-280px, 110px) scale(0.62) rotate(2deg);
+        opacity: 0;
+      }
+      66% {
+        opacity: 1;
+        transform: translate(-80px, 108px) scale(0.62) rotate(2deg);
+      }
+      94% {
+        opacity: 1;
+        transform: translate(1020px, 92px) scale(0.62) rotate(-1deg);
+      }
+      97%, 100% {
+        opacity: 0;
+        transform: translate(1060px, 92px) scale(0.62) rotate(-1deg);
+      }
+    }
+
+    /* Supersonic Transonic Vapor Shock Ring */
+    .sonicShockRing {
+      transform-origin: center;
+      animation: shockPulse 15s cubic-bezier(0.2, 0.8, 0.3, 1) infinite;
+      opacity: 0;
+    }
+    @keyframes shockPulse {
+      0%, 46% { opacity: 0; transform: translate(560px, 320px) scale(0.2); }
+      48%     { opacity: 0.95; transform: translate(560px, 320px) scale(0.45); }
+      54%     { opacity: 0; transform: translate(660px, 270px) scale(2.8); }
+      100%    { opacity: 0; }
+    }
+
+    /* Pilot Silhouette Natural Breathing */
+    .pilotStanding { animation: pilotStance 5s ease-in-out infinite alternate; }
+    @keyframes pilotStance { 0% { transform: translateY(0); } 100% { transform: translateY(-1.5px); } }
+
+    /* Tactical HUD Lock Ring */
+    .hudLockRing { transform-origin: 680px 160px; animation: hudScan 8s linear infinite; }
+    @keyframes hudScan { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+    /* Universal Monospace Teletype Mask Animations (Pure CSS - 100% GitHub Compatible) */
+    .t0 { animation: t0vis 15s linear infinite; }
+    @keyframes t0vis { 0%, 23% { opacity: 1; } 23.5%, 100% { opacity: 0; } }
+    .c0 { animation: c0slide 15s linear infinite; }
+    @keyframes c0slide {
+      0%, 1.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(48, end); }
+      10.5%, 23% { transform: translateX(440px); opacity: 1; }
+      23.5%, 100% { transform: translateX(440px); opacity: 0; }
+    }
+    .k0 { animation: k0slide 15s linear infinite; }
+    @keyframes k0slide {
+      0%, 1.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(48, end); }
+      10.5%, 23% { transform: translateX(440px); opacity: 1; }
+      23.5%, 100% { opacity: 0; }
+    }
+
+    .t1 { animation: t1vis 15s linear infinite; }
+    @keyframes t1vis { 0%, 24.5% { opacity: 0; } 25%, 48% { opacity: 1; } 48.5%, 100% { opacity: 0; } }
+    .c1 { animation: c1slide 15s linear infinite; }
+    @keyframes c1slide {
+      0%, 25% { transform: translateX(0); opacity: 0; }
+      25.5%, 26.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(52, end); }
+      35.5%, 48% { transform: translateX(440px); opacity: 1; }
+      48.5%, 100% { transform: translateX(440px); opacity: 0; }
+    }
+    .k1 { animation: k1slide 15s linear infinite; }
+    @keyframes k1slide {
+      0%, 25% { transform: translateX(0); opacity: 0; }
+      25.5%, 26.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(52, end); }
+      35.5%, 48% { transform: translateX(440px); opacity: 1; }
+      48.5%, 100% { opacity: 0; }
+    }
+
+    .t2 { animation: t2vis 15s linear infinite; }
+    @keyframes t2vis { 0%, 49.5% { opacity: 0; } 50%, 73% { opacity: 1; } 73.5%, 100% { opacity: 0; } }
+    .c2 { animation: c2slide 15s linear infinite; }
+    @keyframes c2slide {
+      0%, 50% { transform: translateX(0); opacity: 0; }
+      50.5%, 51.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
+      60.5%, 73% { transform: translateX(440px); opacity: 1; }
+      73.5%, 100% { transform: translateX(440px); opacity: 0; }
+    }
+    .k2 { animation: k2slide 15s linear infinite; }
+    @keyframes k2slide {
+      0%, 50% { transform: translateX(0); opacity: 0; }
+      50.5%, 51.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
+      60.5%, 73% { transform: translateX(440px); opacity: 1; }
+      73.5%, 100% { opacity: 0; }
+    }
+
+    .t3 { animation: t3vis 15s linear infinite; }
+    @keyframes t3vis { 0%, 74.5% { opacity: 0; } 75%, 98% { opacity: 1; } 98.5%, 100% { opacity: 0; } }
+    .c3 { animation: c3slide 15s linear infinite; }
+    @keyframes c3slide {
+      0%, 75% { transform: translateX(0); opacity: 0; }
+      75.5%, 76.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
+      85.5%, 98% { transform: translateX(440px); opacity: 1; }
+      98.5%, 100% { transform: translateX(440px); opacity: 0; }
+    }
+    .k3 { animation: k3slide 15s linear infinite; }
+    @keyframes k3slide {
+      0%, 75% { transform: translateX(0); opacity: 0; }
+      75.5%, 76.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
+      85.5%, 98% { transform: translateX(440px); opacity: 1; }
+      98.5%, 100% { opacity: 0; }
+    }
+
+    .cursorBlink { animation: curBlink 0.65s steps(1) infinite; }
+    @keyframes curBlink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+  ]]></style>
+
+  <!-- Deep Aerospace Sky & Horizon Container -->
+  <rect width="920" height="480" rx="8" fill="#020617" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="372" rx="6" fill="url(#skyGrad)"/>
+  <rect x="2" y="2" width="916" height="372" rx="6" fill="url(#nebulaGlow)"/>
+
+  <!-- High-Orbit Satellite -->
+  <g class="satellite">
+    <circle cx="0" cy="0" r="1.6" fill="#e0f2fe" filter="url(#neonGlow)"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#38bdf8" stroke-width="0.7"/>
+    <circle cx="0" cy="0" r="3" fill="none" stroke="#38bdf8" stroke-width="0.4" opacity="0.6"/>
   </g>
 
-  <!-- ground + faint grid -->
-  <line x1="0" y1="396" x2="900" y2="396" stroke="#1e3a8a" stroke-opacity=".7"/>
-  <g stroke="#1e3a8a" stroke-opacity=".25">
-    <line x1="0" y1="408" x2="900" y2="408"/><line x1="0" y1="422" x2="900" y2="422"/>
+  <!-- Multi-Magnitude Starfield -->
+  <g id="starField">
+    <circle cx="45" cy="35" r="1.3" fill="#ffffff" class="starFast"/>
+    <circle cx="120" cy="78" r="1.4" fill="#bae6fd" class="starMid"/>
+    <circle cx="185" cy="42" r="1.1" fill="#e0f2fe" class="starSlow"/>
+    <circle cx="260" cy="95" r="1.5" fill="#ffffff" class="starFast"/>
+    <circle cx="340" cy="38" r="1.2" fill="#bae6fd" class="starMid"/>
+    <circle cx="410" cy="85" r="1.3" fill="#ffffff" class="starSlow"/>
+    <circle cx="495" cy="45" r="1.5" fill="#e0f2fe" class="starFast"/>
+    <circle cx="580" cy="110" r="1.2" fill="#ffffff" class="starMid"/>
+    <circle cx="650" cy="55" r="1.4" fill="#bae6fd" class="starSlow"/>
+    <circle cx="730" cy="90" r="1.3" fill="#ffffff" class="starFast"/>
+    <circle cx="810" cy="40" r="1.4" fill="#e0f2fe" class="starMid"/>
+    <circle cx="885" cy="75" r="1.2" fill="#ffffff" class="starSlow"/>
+
+    <circle cx="78" cy="140" r="0.8" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="155" cy="170" r="0.9" fill="#93c5fd" opacity="0.7"/>
+    <circle cx="225" cy="130" r="0.7" fill="#93c5fd" opacity="0.5"/>
+    <circle cx="295" cy="165" r="0.8" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="365" cy="125" r="0.9" fill="#93c5fd" opacity="0.7"/>
+    <circle cx="445" cy="155" r="0.7" fill="#93c5fd" opacity="0.5"/>
+    <circle cx="525" cy="135" r="0.8" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="605" cy="175" r="0.9" fill="#93c5fd" opacity="0.7"/>
+    <circle cx="695" cy="140" r="0.8" fill="#93c5fd" opacity="0.5"/>
+    <circle cx="775" cy="160" r="0.9" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="855" cy="130" r="0.7" fill="#93c5fd" opacity="0.5"/>
   </g>
 
-  <!-- pipes -->
-  <g fill="none" stroke-linecap="round">
-    <path d="M150 386 C 205 438, 290 438, 352 392" stroke="#232c42" stroke-width="16"/>
-    <path d="M150 386 C 205 438, 290 438, 352 392" stroke="#3a465f" stroke-width="10"/>
-    <path d="M528 392 C 585 442, 650 440, 700 388" stroke="#232c42" stroke-width="16"/>
-    <path d="M528 392 C 585 442, 650 440, 700 388" stroke="#3a465f" stroke-width="10"/>
-  </g>
+  <!-- Distant Mountain Ridge Horizon -->
+  <path d="M0,355 L65,340 L140,350 L210,332 L290,348 L380,336 L470,352 L560,338 L660,349 L760,334 L840,347 L920,338 L920,360 L0,360 Z" fill="#070f23" opacity="0.85"/>
 
-  <!-- radar tower -->
-  <g>
-    <rect x="62" y="236" width="92" height="160" rx="6" fill="url(#metal)" stroke="#4b5873"/>
-    <rect x="72" y="256" width="72" height="44" rx="4" fill="#0f172a" stroke="#3b82f6" stroke-opacity=".6"/>
-    <g class="scr" stroke="#38bdf8" stroke-width="2" stroke-linecap="round">
-      <line x1="80" y1="266" x2="128" y2="266"/><line x1="80" y1="275" x2="118" y2="275"/>
-      <line x1="80" y1="284" x2="132" y2="284"/><line x1="80" y1="292" x2="108" y2="292"/>
+  <!-- Tactical Aerospace HUD Overlay -->
+  <g id="hudDisplay" opacity="0.7">
+    <!-- Pitch Ladder -->
+    <g stroke="#38bdf8" stroke-width="0.9" opacity="0.45">
+      <line x1="390" y1="140" x2="430" y2="140"/><line x1="490" y1="140" x2="530" y2="140"/>
+      <line x1="410" y1="170" x2="440" y2="170"/><line x1="480" y1="170" x2="510" y2="170"/>
+      <line x1="390" y1="200" x2="430" y2="200"/><line x1="490" y1="200" x2="530" y2="200"/>
     </g>
-    <circle cx="82" cy="322" r="4" fill="#22c55e" class="blink"/><circle cx="96" cy="322" r="4" fill="#38bdf8"/>
-    <rect x="76" y="340" width="64" height="8" rx="2" fill="#1b2336"/>
-    <rect x="76" y="356" width="64" height="8" rx="2" fill="#1b2336"/>
-    <line x1="108" y1="236" x2="108" y2="176" stroke="#4b5873" stroke-width="6"/>
-    <g transform="translate(108,176)"><g class="dish">
-      <path d="M-30 -14 Q0 24 30 -14Z" fill="#3a465f" stroke="#60a5fa" stroke-opacity=".7"/>
-      <line x1="0" y1="2" x2="0" y2="-26" stroke="#60a5fa" stroke-width="2"/>
-      <circle cx="0" cy="-28" r="3" fill="#ef4444" class="blink"/>
-    </g></g>
-  </g>
 
-  <!-- hangar dome -->
-  <g>
-    <circle cx="440" cy="296" r="102" fill="url(#metal)" stroke="#4b5873"/>
-    <circle cx="440" cy="296" r="94" fill="none" stroke="#2f3a52"/>
-    <g fill="#1b2336" stroke="#4b5873">
-      <rect x="424" y="206" width="9" height="40" rx="2"/><rect x="437" y="206" width="9" height="40" rx="2"/><rect x="450" y="206" width="9" height="40" rx="2"/>
+    <!-- Telemetry Readouts -->
+    <g class="hudText">
+      <text x="32" y="32">SYS: ONLINE [AUTO-FLIGHT]</text>
+      <text x="32" y="48">AIRSPEED: MACH 2.25</text>
+      <text x="32" y="64">ALT: 38,500 FT MSL</text>
+      <text x="32" y="80">G-LOAD: +6.4G</text>
+
+      <text x="740" y="32">HDG: 092° MAG</text>
+      <text x="740" y="48">THRUST: 2x 123 kN</text>
+      <text x="740" y="64">RADAR: TWS ACTIVE</text>
+      <text x="740" y="80">TGT: AIRBORNE [LOCKED]</text>
     </g>
-    <g fill="#2a3550" stroke="#60a5fa" stroke-opacity=".55">
-      <polygon points="372,262 388,253 404,262 404,280 388,289 372,280"/>
-      <polygon points="476,262 492,253 508,262 508,280 492,289 476,280"/>
-      <polygon points="424,252 440,243 456,252 456,270 440,279 424,270" transform="translate(0,6)"/>
+
+    <!-- Targeting Bracket -->
+    <g transform="translate(680, 160)" class="hudLockRing">
+      <circle cx="0" cy="0" r="28" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="14 10"/>
+      <line x1="-34" y1="0" x2="-24" y2="0" stroke="#38bdf8" stroke-width="1.4"/>
+      <line x1="24" y1="0" x2="34" y2="0" stroke="#38bdf8" stroke-width="1.4"/>
+      <line x1="0" y1="-34" x2="0" y2="-24" stroke="#38bdf8" stroke-width="1.4"/>
+      <line x1="0" y1="24" x2="0" y2="34" stroke="#38bdf8" stroke-width="1.4"/>
     </g>
-    <rect x="388" y="300" width="104" height="52" rx="8" fill="#141c30" stroke="#60a5fa" stroke-opacity=".6"/>
-    <g stroke="#38bdf8" stroke-opacity=".6" stroke-width="2" stroke-linecap="round">
-      <line x1="400" y1="314" x2="472" y2="314"/><line x1="400" y1="326" x2="458" y2="326"/><line x1="400" y1="338" x2="480" y2="338"/>
+  </g>
+
+  <!-- Flight Base Concrete Tarmac & Runway -->
+  <rect x="0" y="356" width="920" height="124" fill="url(#tarmacGrad)"/>
+  <line x1="0" y1="356" x2="920" y2="356" stroke="#1e3a8a" stroke-width="1.6"/>
+  <line x1="0" y1="368" x2="920" y2="368" stroke="#172554" stroke-width="1"/>
+  <line x1="0" y1="392" x2="920" y2="392" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Runway Centerline Stripe -->
+  <g stroke="#38bdf8" stroke-width="2" stroke-dasharray="32 24" opacity="0.4">
+    <line x1="0" y1="376" x2="920" y2="376"/>
+  </g>
+
+  <!-- Sequenced Approach Lights (ALS "The Rabbit") -->
+  <circle cx="80" cy="376" r="3.2" class="runwaySeq1"/>
+  <circle cx="190" cy="376" r="3.2" class="runwaySeq2"/>
+  <circle cx="310" cy="376" r="3.2" class="runwaySeq3"/>
+  <circle cx="440" cy="376" r="3.2" class="runwaySeq4"/>
+  <circle cx="570" cy="376" r="3.2" class="runwaySeq5"/>
+  <circle cx="700" cy="376" r="3.2" class="runwaySeq6"/>
+  <circle cx="830" cy="376" r="3.2" class="runwaySeq7"/>
+
+  <!-- Threshold & Taxiway Beacons -->
+  <circle cx="15" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
+  <circle cx="35" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
+  <circle cx="55" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
+
+  <circle cx="160" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="280" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="400" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="520" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="640" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="760" cy="356" r="2.2" fill="#0284c7"/>
+  <circle cx="880" cy="356" r="2.2" fill="#0284c7"/>
+
+  <!-- Hardened Aircraft Shelter (HAS) / Hangar Dome -->
+  <g transform="translate(480, 260)">
+    <path d="M-90,96 C-90,20 90,20 90,96 Z" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <path d="M-76,96 C-76,32 76,32 76,96 Z" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+    <rect x="-48" y="52" width="96" height="44" rx="4" fill="#090d16" stroke="#0284c7" stroke-width="1.2"/>
+    <polygon points="-36,52 36,52 44,96 -44,96" fill="#38bdf8" opacity="0.12"/>
+    <line x1="-48" y1="94" x2="48" y2="94" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 6"/>
+    <circle cx="0" cy="20" r="3.5" fill="#22c55e" class="pulseCyan"/>
+  </g>
+
+  <!-- ATC Air Traffic Control & Radar Tower -->
+  <g transform="translate(110, 200)">
+    <polygon points="-24,156 24,156 16,50 -16,50" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <line x1="-20" y1="135" x2="18" y2="105" stroke="#1e293b" stroke-width="1.2"/>
+    <line x1="20" y1="135" x2="-18" y2="105" stroke="#1e293b" stroke-width="1.2"/>
+    <line x1="-18" y1="105" x2="16" y2="75" stroke="#1e293b" stroke-width="1.2"/>
+    <line x1="18" y1="105" x2="-16" y2="75" stroke="#1e293b" stroke-width="1.2"/>
+
+    <polygon points="-28,50 28,50 22,26 -22,26" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="-24,46 24,46 19,29 -19,29" fill="#0284c7" opacity="0.35"/>
+    <rect x="-14" y="38" width="28" height="6" fill="#38bdf8" opacity="0.75" class="pulseCyan"/>
+
+    <line x1="0" y1="26" x2="0" y2="2" stroke="#64748b" stroke-width="3"/>
+    <g class="dishRotate">
+      <path d="M-26,-2 C-16,14 16,14 26,-2 Z" fill="#334155" stroke="#38bdf8" stroke-width="1.4"/>
+      <line x1="0" y1="7" x2="0" y2="-12" stroke="#94a3b8" stroke-width="1.8"/>
+      <circle cx="0" cy="-12" r="2.5" fill="#ef4444" class="strobeRed"/>
     </g>
-    <circle cx="474" cy="326" r="3" fill="#22c55e" class="blink"/>
+
+    <g class="radarSweepBeam" opacity="0.35">
+      <path d="M0,0 L65,-40 A75,75 0 0,1 75,10 Z" fill="url(#radarBeam)"/>
+    </g>
+
+    <circle cx="-27" cy="50" r="2.2" fill="#ef4444" class="strobeRed"/>
+    <circle cx="27" cy="50" r="2.2" fill="#ef4444" class="strobeRed"/>
   </g>
 
-  <!-- launch gate -->
-  <g>
-    <circle cx="770" cy="300" r="62" fill="url(#portal)" class="pt"/>
-    <circle class="ring" cx="770" cy="300" r="60" fill="url(#portal)" style="transform-box:fill-box;transform-origin:center"/>
-    <circle cx="770" cy="300" r="74" fill="none" stroke="url(#metal)" stroke-width="34"/>
-    <circle cx="770" cy="300" r="91" fill="none" stroke="#4b5873"/>
-    <circle cx="770" cy="300" r="57" fill="none" stroke="#60a5fa" stroke-opacity=".6"/>
-    <circle class="shock" cx="770" cy="300" r="60" fill="none" stroke="#7dd3fc" stroke-width="3"/>
-    <rect x="842" y="276" width="38" height="62" rx="5" fill="url(#metal)" stroke="#4b5873"/>
-    <circle cx="853" cy="290" r="3.5" fill="#ef4444" class="blink"/><circle cx="866" cy="290" r="3.5" fill="#22c55e"/>
-    <rect x="850" y="304" width="22" height="20" rx="3" fill="#0f172a" stroke="#3b82f6" stroke-opacity=".6"/>
-    <rect x="740" y="388" width="60" height="9" rx="3" fill="#232c42"/>
+  <!-- Flight Line Telemetry Mast & Comms Array -->
+  <g transform="translate(820, 270)">
+    <line x1="0" y1="86" x2="0" y2="10" stroke="#334155" stroke-width="2.5"/>
+    <line x1="-12" y1="26" x2="12" y2="26" stroke="#475569" stroke-width="1.4"/>
+    <line x1="-8" y1="42" x2="8" y2="42" stroke="#475569" stroke-width="1.4"/>
+    <circle cx="0" cy="8" r="2.5" fill="#ef4444" class="strobeRed"/>
+    <line x1="0" y1="18" x2="16" y2="14" stroke="#64748b" stroke-width="1"/>
+    <circle cx="16" cy="14" r="2" fill="#22c55e" class="strobeGreen"/>
   </g>
 
-  <!-- jets -->
-  <g class="cruise"><g class="bob"><use href="#jet"/></g></g>
-  <g class="launch"><use href="#jet"/></g>
+  <!-- Fighter Pilot Standing on Flight Line -->
+  <g transform="translate(230, 356)" class="pilotStanding">
+    <ellipse cx="0" cy="0" rx="14" ry="3.5" fill="#000000" opacity="0.6"/>
 
-  <!-- pilot (blue outline) -->
-  <g class="pilot" opacity="0"><g class="pbob" filter="url(#neon)" fill="none" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="0" cy="-64" r="9"/>
-    <path d="M-1 -66 Q8 -66 8 -62 L-1 -61Z" fill="#3b82f6" fill-opacity=".35"/>
-    <path d="M-9 -64 L-9 -58 M9 -64 L9 -58"/>
-    <path d="M0 -55 L0 -34"/>
-    <path d="M-7 -52 L7 -52 L5 -34 L-5 -34Z" stroke-opacity=".8"/>
-    <g style="transform-origin:0px -50px" class="aa"><path d="M0 -50 L6 -38 L11 -31"/></g>
-    <g style="transform-origin:0px -50px" class="la"><path d="M0 -50 L-6 -38 L-10 -31"/></g>
-    <g style="transform-origin:0px -34px" class="la"><path d="M0 -34 L2 -17 L0 -2 L7 -2"/></g>
-    <g style="transform-origin:0px -34px" class="lb"><path d="M0 -34 L-2 -17 L0 -2 L7 -2"/></g>
-  </g></g>
+    <path d="M-5,0 L-4,-14 L-2,-26 L-5,-26 L-7,-14 L-9,0 Z" fill="#0f172a" stroke="#1e293b" stroke-width="0.6"/>
+    <path d="M4,0 L3,-14 L1,-26 L4,-26 L6,-14 L8,0 Z" fill="#0f172a" stroke="#1e293b" stroke-width="0.6"/>
 
-  <!-- typing -->
-  
-  <g class="t0" opacity="0">
-    <text x="258.6" y="478" font-size="22" fill="#38bdf8" textLength="382.8" lengthAdjust="spacing" class="mono">AI/ML &amp; Optimization Engineer</text>
-    <rect class="c0" x="256.6" y="456" width="422.8" height="32" fill="#0a1128"/>
-    <rect class="k0" x="257.6" y="458" width="2.5" height="26" fill="#7dd3fc"/>
+    <path d="M-8,-26 L-10,-44 L-8,-52 L8,-52 L10,-44 L8,-26 Z" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <line x1="-6" y1="-50" x2="6" y2="-30" stroke="#0284c7" stroke-width="1" opacity="0.8"/>
+    <line x1="6" y1="-50" x2="-6" y2="-30" stroke="#0284c7" stroke-width="1" opacity="0.8"/>
+    <rect x="-3" y="-46" width="6" height="4" fill="#38bdf8" opacity="0.7"/>
+
+    <path d="M-10,-50 L-16,-38 L-14,-28 L-10,-32" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <rect x="-17" y="-34" width="8" height="11" rx="1.5" fill="#0284c7" stroke="#38bdf8" stroke-width="0.6"/>
+    <path d="M10,-50 L16,-38 L12,-30" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <circle cx="13" cy="-30" r="5" fill="#334155" stroke="#38bdf8" stroke-width="0.8"/>
+
+    <ellipse cx="0" cy="-58" rx="5" ry="6" fill="#1e293b"/>
+    <path d="M-5,-61 Q0,-66 5,-61 L5,-57 L-5,-57 Z" fill="#0284c7"/>
+    <path d="M-5,-58 Q0,-63 5,-58" stroke="#94a3b8" stroke-width="1" fill="none"/>
+    <circle cx="-5" cy="-58" r="1.5" fill="#38bdf8"/>
+    <circle cx="5" cy="-58" r="1.5" fill="#38bdf8"/>
   </g>
-  <g class="t1" opacity="0">
-    <text x="252.0" y="478" font-size="22" fill="#38bdf8" textLength="396.0" lengthAdjust="spacing" class="mono">Hybrid-Electric UAV Propulsion</text>
-    <rect class="c1" x="250.0" y="456" width="436.0" height="32" fill="#0a1128"/>
-    <rect class="k1" x="251.0" y="458" width="2.5" height="26" fill="#7dd3fc"/>
+
+  <!-- Supersonic Transonic Vapor Shock Ring -->
+  <circle cx="0" cy="0" r="42" fill="none" stroke="#bae6fd" stroke-width="4" filter="url(#neonGlow)" class="sonicShockRing"/>
+
+  <!-- Master Sukhoi Su-30MKI Animated Jet Group -->
+  <g class="fighterMission">
+    <use href="#sukhoiFighter"/>
   </g>
-  <g class="t2" opacity="0">
-    <text x="271.8" y="478" font-size="22" fill="#38bdf8" textLength="356.4" lengthAdjust="spacing" class="mono">Aerothon 2026 - First Place</text>
-    <rect class="c2" x="269.8" y="456" width="396.4" height="32" fill="#0a1128"/>
-    <rect class="k2" x="270.8" y="458" width="2.5" height="26" fill="#7dd3fc"/>
+
+  <!-- Lower Cyber HUD Telemetry Console & Terminal Typewriter -->
+  <g transform="translate(100, 420)">
+    <!-- Base Housing -->
+    <rect x="0" y="0" width="720" height="48" rx="6" fill="#060c1d" stroke="#1e3a8a" stroke-width="1.4"/>
+    <rect x="2" y="2" width="716" height="44" rx="4" fill="#0a132c" opacity="0.95"/>
+
+    <!-- Cyber Corners -->
+    <path d="M0,10 L0,0 L10,0" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <path d="M720,10 L720,0 L710,0" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <path d="M0,38 L0,48 L10,48" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <path d="M720,38 L720,48 L710,48" stroke="#38bdf8" stroke-width="2" fill="none"/>
+
+    <!-- Status Indicator Pill -->
+    <rect x="14" y="14" width="78" height="20" rx="10" fill="#0f224a" stroke="#0284c7" stroke-width="1"/>
+    <circle cx="25" cy="24" r="3.5" fill="#22c55e" class="pulseCyan"/>
+    <text x="34" y="28" font-family="monospace" font-size="9.5" font-weight="700" fill="#38bdf8">AIRBORNE</text>
+
+    <!-- Synchronized Monospace Teletype Sequences (15s Loop) -->
+    <!-- Message 0: Callsign & Lead -->
+    <g class="t0">
+      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">CALLSIGN: GAURAV S. // AI/ML &amp; OPTIMIZATION LEAD</text>
+      <rect class="c0" x="108" y="10" width="460" height="30" fill="#0a132c"/>
+      <rect class="k0 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
+    </g>
+
+    <!-- Message 1: UAV Propulsion Mission -->
+    <g class="t1">
+      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">MISSION: HYBRID-ELECTRIC PROPULSION &amp; AUTONOMOUS UAVs</text>
+      <rect class="c1" x="108" y="10" width="460" height="30" fill="#0a132c"/>
+      <rect class="k1 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
+    </g>
+
+    <!-- Message 2: Championship Title -->
+    <g class="t2">
+      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">WINNER: 1ST PLACE - HAL × IIT INDORE AEROTHON '26 🏆</text>
+      <rect class="c2" x="108" y="10" width="460" height="30" fill="#0a132c"/>
+      <rect class="k2 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
+    </g>
+
+    <!-- Message 3: Supersonic Status -->
+    <g class="t3">
+      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">STATUS: CLEARED FOR MACH 2.2+ SUPERSONIC FLIGHT ✈️</text>
+      <rect class="c3" x="108" y="10" width="460" height="30" fill="#0a132c"/>
+      <rect class="k3 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
+    </g>
   </g>
-  <g class="t3" opacity="0">
-    <text x="238.8" y="478" font-size="22" fill="#38bdf8" textLength="422.4" lengthAdjust="spacing" class="mono">Building smart aerospace systems</text>
-    <rect class="c3" x="236.8" y="456" width="462.4" height="32" fill="#0a1128"/>
-    <rect class="k3" x="237.8" y="458" width="2.5" height="26" fill="#7dd3fc"/>
-  </g>
-<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4NDNjMGMzOC04YTJmLTRkZTItOGQ0YS01NDVkOTdmMDBlOGEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLBYUckgtZ6H0xa1mJlrVaQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmZmMxZTBlNC03NmE0LTQzMTEtYTMyZS05NmY1YjhhMGM2YTNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoQPtacVXGo+zAyIywkl/BvgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg/v9BaZqCffMMjnSQkCaZe4CD9Q+btwdbt1Epz7TxrPekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaDPeykCuDh7dTY9BI7GJVkwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIFNKmRzfyLFT2tUCwuRMNViBPwGyZheH6VryM0CUiVuNZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GVg5Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjg0M2MwYzM4LThhMmYtNGRlMi04ZDRhLTU0NWQ5N2YwMGU4YS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmM1YjFlYWVmLWYxMDItNDk4My04YjYyLTI3YWYxMWE1MzNhZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD+/0FpmoJ98wyOdJCQJpl7gIP1D5u3B1u3USnPtPGs96JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggaZffeF7T6egumM2XiNlMjyLD/ClX7NYyXQdWoOzYdhKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggnySDwWjV4g1Y4AgwUYdWhTH8J0la2WzRN9nXQsnvpwp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJWCmiCZtGKRHjqP0bNkkLRA7h36irPJO9aAKBheVs8rUSTy3aCuNmgym7lBGYZYY5VFZRDVFWTiVBpph1RFRAg=</c2pa:manifest></metadata></svg>
+</svg>

@@ -1,105 +1,151 @@
 <div align="center">
 
-# I'm Gaurav Shivakumar! ✈️
+# ✈️ GAURAV SHIVAKUMAR // AEROSPACE & AI/ML SYSTEMS
+### **AI/ML & Optimization Lead · Hybrid-Electric UAV Propulsion · Aerothon 2026 Champion**
 
-
-<img src="assets/hero-scene.svg" alt="Animated aerospace scene with a Sukhoi jet" width="100%"/>
+<!-- Master Animated Aerospace Scene: Sukhoi Su-30MKI Supersonic Launch with Mach Diamonds & HUD Telemetry -->
+<img src="assets/hero-scene.svg" alt="Aerospace Flight Test Command - Sukhoi Su-30MKI Supersonic Launch" width="100%"/>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=gauravmes9a11-alt&label=Visitors&color=00b4ff&style=for-the-badge&labelColor=0a1128" alt="Visitor count"/>
-<a href="https://www.linkedin.com/in/gauravs-378954347"><img src="https://img.shields.io/badge/LinkedIn-Connect-00b4ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a1128" alt="LinkedIn"/></a>
-<img src="https://img.shields.io/badge/PES_University-2024--2028-00b4ff?style=for-the-badge&labelColor=0a1128" alt="PES University"/>
+[![Visitors](https://komarev.com/ghpvc/?username=gauravmes9a11-alt&label=Flight_Visits&color=00b4ff&style=for-the-badge&labelColor=0a1128)](https://github.com/gauravmes9a11-alt)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00b4ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a1128)](https://www.linkedin.com/in/gauravs-378954347)
+[![Email](https://img.shields.io/badge/Email-Flight_Comms-00b4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a1128)](mailto:gaurav.mes9a11@gmail.com)
+[![PES University](https://img.shields.io/badge/PES_University-B.Tech_AI%2FML_('24--'28)-00b4ff?style=for-the-badge&labelColor=0a1128)](https://pes.edu)
+[![Aerothon 2026 Winner](https://img.shields.io/badge/🏆_Aerothon_2026-Grand_Finale_Winner-00b4ff?style=for-the-badge&labelColor=0a1128)](https://github.com/gauravmes9a11-alt)
+
+<br/>
+
+[![NVIDIA Developer](https://img.shields.io/badge/NVIDIA_Developer-Member-76B900?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=0a1128)](https://developer.nvidia.com)
+[![Google Developer](https://img.shields.io/badge/Google_Developer-Member-4285F4?style=for-the-badge&logo=google&logoColor=white&labelColor=0a1128)](https://developers.google.com)
+[![GitHub Developer](https://img.shields.io/badge/GitHub_Developer-Member-00b4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a1128)](https://github.com/gauravmes9a11-alt)
 
 </div>
 
 ---
 
-## 🛰️ About Me
+## 🛰️ Flight Operations & Profile Telemetry
 
 ```text
-> Pilot       : Gaurav Shivakumar
-> Mission     : build intelligent systems for aerospace & beyond
-> Campus      : B.Tech CSE (AI/ML), PES University, Bengaluru
-> Achievement : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)
-> Ambassador  : E-Cell IIT Bombay
-> Member      : Nvdia Developer Member, Google Developer Member, Github Developer Member
-> Status      : cleared for takeoff ✈️
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ FLIGHT OPERATIONS & AVIONICS SPECIFICATIONS                                            │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ > PILOT CALLSIGN : Gaurav Shivakumar (gauravmes9a11-alt)                               │
+│ > MISSION        : Build intelligent, physics-guided systems for aerospace and beyond │
+│ > COMMAND ROLE   : AI/ML & Optimization Lead @ Team AeroVolt Dynamics                 │
+│ > CAMPUS BASE    : B.Tech CSE (AI/ML), PES University, Bengaluru                       │
+│ > TOP HONORS     : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)       │
+│ > AMBASSADOR     : E-Cell IIT Bombay                                                   │
+│ > MEMBERSHIP     : NVIDIA Developer · Google Developer · GitHub Developer             │
+│ > FLIGHT STATUS  : CLEARED FOR TAKEOFF // MACH 2.2+ SUPERSONIC CLIMB ✈️                 │
+└────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+- 🛩️ **Aerospace Propulsion Optimization**: Engineering multi-objective energy management strategies (NSGA-II, ECMS, Rule-Based) for hybrid-electric UAV architectures.
+- 🧠 **Deep Learning & Trajectory Prediction**: Developing knowledge distillation frameworks (**LaKD-UAV**) for variable-length autonomous flight trajectory forecasting.
+- 🛰️ **Physics-Guided Remote Sensing**: Architecting cross-modal satellite imagery retrieval systems (**PEIRL**) for Earth observation hackathons.
+
 ---
 
-## 🧰 Programming Languages & Tech Stack
+## 🧰 Avionics & Technology Arsenal
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,c,mysql&theme=dark" alt="Languages"/>
+### 🧠 AI, Machine Learning & Mathematical Optimization
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy,opencv&theme=dark" alt="AI & ML Core"/>
+</a>
+
 <br/>
-<img src="https://skillicons.dev/icons?i=react,tailwind,fastapi,flask,streamlit,arduino&theme=dark" alt="Frameworks"/>
+
+### 💻 Core Languages & Embedded Systems
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=py,cpp,c,java,ts,js,mysql,arduino&theme=dark" alt="Languages & Embedded Systems"/>
+</a>
+
 <br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy,git,github,linux,vscode&theme=dark" alt="ML and tools"/>
+
+### ⚡ Frameworks, Simulation & Development Avionics
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,streamlit,react,tailwind,linux,git,github,vscode,docker&theme=dark" alt="Frameworks & Tools"/>
+</a>
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Flight Telemetry & Performance Analytics
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&show_icons=true&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&icon_color=38bdf8&text_color=c9d1d9&ring_color=00b4ff&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&layout=compact&langs_count=8&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9" alt="Most used languages"/>
+<img height="185" src="https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&show_icons=true&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&icon_color=38bdf8&text_color=c9d1d9&ring_color=00b4ff" alt="GitHub Stats"/>
+<img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&layout=compact&langs_count=8&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9" alt="Top Languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=gauravmes9a11-alt&background=0A1128&border=1E3A8A&ring=00B4FF&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=00B4FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=7DD3FC" alt="GitHub streak"/>
+<img src="https://streak-stats.demolab.com/?user=gauravmes9a11-alt&background=0A1128&border=1E3A8A&ring=00B4FF&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=00B4FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=7DD3FC" alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Radar Reconnaissance & Contribution Grid
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravmes9a11-alt&bg_color=0a1128&color=38bdf8&line=00b4ff&point=ffffff&area=true&area_color=00b4ff&hide_border=true&title_color=00b4ff" alt="Contribution graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravmes9a11-alt&bg_color=0a1128&color=38bdf8&line=00b4ff&point=ffffff&area=true&area_color=00b4ff&hide_border=true&title_color=00b4ff" alt="Activity Graph" width="100%"/>
 
-### 🐍 Contribution Snake
+### 🛰️ Tactical Contribution Reconnaissance Drone Patrol
 
-<img src="https://raw.githubusercontent.com/gauravmes9a11-alt/gauravmes9a11-alt/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+<img src="assets/github-snake-dark.svg" alt="Tactical Contribution Drone Patrol" width="100%"/>
 
 </div>
 
 ---
 
-## 🚀 My Projects
+## 🚀 Strategic Deployments & Featured Missions
 
 <div align="center">
 
 <a href="https://github.com/gauravmes9a11-alt/AeroPulse">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=AeroPulse&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="AeroPulse"/>
 </a>
-<a href="https://github.com/gauravmes9a11-alt/Hybrid-UAV-Propulsion-Framework">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=Hybrid-UAV-Propulsion-Framework&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="Hybrid UAV Propulsion Framework"/>
+<a href="https://github.com/gauravmes9a11-alt/LAKD-Simulation">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=LAKD-Simulation&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="LAKD Simulation"/>
+</a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt/PEIRL">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=PEIRL&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="PEIRL"/>
 </a>
 <a href="https://github.com/gauravmes9a11-alt/Drowsiness-Detector">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=Drowsiness-Detector&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="Drowsiness Detector"/>
 </a>
 
-<!--
-  ➕ ADD MORE PROJECTS: copy one block above and change repo=YourRepoName
--->
-
 </div>
+
+<br/>
+
+| Mission / Repository | Operational Overview | Avionics Stack | Status |
+| :--- | :--- | :--- | :---: |
+| 🛩️ **[AeroPulse](https://github.com/gauravmes9a11-alt/AeroPulse)** | Real-time aerospace telemetry analytics, flight dynamic modeling, and propulsion monitoring. | `Python` `Streamlit` `NumPy` `SciPy` | `● ACTIVE` |
+| 🛰️ **[LAKD-Simulation](https://github.com/gauravmes9a11-alt/LAKD-Simulation)** | Knowledge distillation architecture for variable-length autonomous UAV trajectory forecasting. | `PyTorch` `Deep Learning` `Python` | `● AIRBORNE` |
+| 🌍 **[PEIRL](https://github.com/gauravmes9a11-alt/PEIRL)** | Physics-guided cross-modal satellite image retrieval system built for national hackathons. | `PyTorch` `Computer Vision` `GIS` | `● DEPLOYED` |
+| ✈️ **[Flight-Management-System](https://github.com/gauravmes9a11-alt/Flight-Management-System)** | Interactive flight operations console: gate assignments, route planning, and fleet scheduling. | `Java` `OOP` `Algorithms` | `● OPERATIONAL` |
+| ⚡ **[Drowsiness-Detector](https://github.com/gauravmes9a11-alt/Drowsiness-Detector)** | Edge AI + hardware safety system using MediaPipe EAR and Arduino microcontrollers. | `Python` `MediaPipe` `OpenCV` `Arduino` | `● VERIFIED` |
 
 ---
 
-## 🏆 Highlights
+## 🏆 Flight Commendations & Honors
 
-- 🥇 **First Place**, HAL × IIT Indore Aerothon 2026 Grand Finale: Hybrid-Electric Propulsion Optimisation (NSGA-II, ECMS, physics-based UAV models)
-- 🛩️ Capstone: **LaKD-UAV**, knowledge distillation for variable-length drone trajectory prediction
-- 🛰️ **PEIRL**: physics-guided cross-modal satellite image retrieval (Bharatiya Antariksh Hackathon 2026)
-- 🔐 Active in hackathons, aerospace design competitions and cybersecurity events
+- 🥇 **Grand Finale Winner (1st Place)** — **HAL × IIT Indore Aerothon 2026**
+  - Led propulsion optimization for hybrid-electric UAVs against **2,600+ national teams**.
+  - Built physics-grounded models with NSGA-II genetic algorithms and ECMS energy distribution.
+- 🛩️ **Capstone Research: LaKD-UAV**
+  - Architected variable-length knowledge distillation pipelines for UAV trajectory prediction.
+- 🛰️ **National Finalist: Bharatiya Antariksh Hackathon 2026**
+  - Developed **PEIRL** for physics-guided multimodal satellite image retrieval.
+- 🎖️ **Campus Ambassador** — **E-Cell IIT Bombay**
+  - Driving entrepreneurial innovation, aerospace workshops, and technological ventures.
 
 ---
 
