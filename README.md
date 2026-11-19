@@ -18,13 +18,13 @@
 ## 🛰️ About Me
 
 ```text
-> pilot       : Gaurav S.
-> mission     : build intelligent systems for aerospace & beyond
-> role        : AI/ML & Optimization Lead @ Team AeroVolt Dynamics
-> campus      : B.Tech CSE (AI/ML), PES University, Bengaluru
-> achievement : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)
-> ambassador  : E-Cell IIT Bombay
-> status      : cleared for takeoff ✈️
+> Pilot       : Gaurav S.
+> Mission     : build intelligent systems for aerospace & beyond
+> Campus      : B.Tech CSE (AI/ML), PES University, Bengaluru
+> Achievement : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)
+> Ambassador  : E-Cell IIT Bombay
+> Member : Nvdia Developer Member, Google Developer Member, Github Developer Member
+> Status      : cleared for takeoff ✈️
 ```
 
 ---
