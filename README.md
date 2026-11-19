@@ -1,16 +1,116 @@
-# 💫 About Me:
-Hi, I’m Gaurav Shivakumar.<br>I am a B.Tech CSE (AIML) student with a strong interest in Data Structures & Algorithms, software development, and AI-based applications. I enjoy working on projects that involve clear logic, structured thinking, and real-world usefulness.<br><br>I am building hands-on experience with Python, C, and Java, and I focus on writing clean, efficient, and reliable code. I regularly practice algorithmic problems to strengthen my problem-solving approach and technical reasoning.<br><br>My current areas of learning include:<br>• Data Structures & Algorithms<br>• Machine Learning fundamentals<br>• Python development<br>• AI tools & workflow automation<br>• Building small but practical projects<br><br>I value continuous learning, collaboration, and opportunities that help me grow both technically and professionally. Always open to connecting.
+<div align="center">
 
+<!-- ✈️ Sukhoi jet animation (file: assets/sukhoi-jet.svg) -->
+<img src="assets/sukhoi-jet.svg" alt="Sukhoi jet flying across the night sky" width="100%"/>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=gauravmes9a11-alt&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<!-- Typing tagline -->
+<a href="https://github.com/gauravmes9a11-alt">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00B4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Gaurav+S.;AI%2FML+%26+Optimization+Engineer;Hybrid-Electric+UAV+Propulsion+%E2%9C%88%EF%B8%8F;Aerothon+2026+%E2%80%A2+First+Place+%F0%9F%8F%86;B.Tech+CSE+(AI%2FML)+%40+PES+University" alt="Typing SVG"/>
+</a>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=gauravmes9a11-alt&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=gauravmes9a11-alt&label=Visitors&color=00b4ff&style=for-the-badge&labelColor=0a1128" alt="Visitor count"/>
+<a href="https://www.linkedin.com/in/gauravs-378954347"><img src="https://img.shields.io/badge/LinkedIn-Connect-00b4ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a1128" alt="LinkedIn"/></a>
+<img src="https://img.shields.io/badge/PES_University-2024--2028-00b4ff?style=for-the-badge&labelColor=0a1128" alt="PES University"/>
+
+</div>
+
+---
+
+## 🛰️ About Me
+
+```text
+> pilot       : Gaurav S.
+> mission     : build intelligent systems for aerospace & beyond
+> role        : AI/ML & Optimization Lead @ Team AeroVolt Dynamics
+> campus      : B.Tech CSE (AI/ML), PES University, Bengaluru
+> achievement : 🏆 First Place, HAL × IIT Indore Aerothon 2026 (2,600+ teams)
+> ambassador  : E-Cell IIT Bombay
+> status      : cleared for takeoff ✈️
+```
+
+---
+
+## 🧰 Programming Languages & Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,java,js,ts,cpp,c,mysql&theme=dark" alt="Languages"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=react,tailwind,fastapi,flask,streamlit,arduino&theme=dark" alt="Frameworks"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,pandas,numpy,git,github,linux,vscode&theme=dark" alt="ML and tools"/>
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=gauravmes9a11-alt&show_icons=true&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&icon_color=38bdf8&text_color=c9d1d9&ring_color=00b4ff&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravmes9a11-alt&layout=compact&langs_count=8&hide_border=false&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9" alt="Most used languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=gauravmes9a11-alt&background=0A1128&border=1E3A8A&ring=00B4FF&fire=38BDF8&currStreakNum=FFFFFF&currStreakLabel=00B4FF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=7DD3FC" alt="GitHub streak"/>
+
+</div>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravmes9a11-alt&bg_color=0a1128&color=38bdf8&line=00b4ff&point=ffffff&area=true&area_color=00b4ff&hide_border=true&title_color=00b4ff" alt="Contribution graph" width="100%"/>
+
+### 🐍 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/gauravmes9a11-alt/gauravmes9a11-alt/output/github-snake-dark.svg" alt="Contribution snake" width="100%"/>
+
+</div>
+
+---
+
+## 🚀 My Projects
+
+<div align="center">
+
+<a href="https://github.com/gauravmes9a11-alt/AeroPulse">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=AeroPulse&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="AeroPulse"/>
+</a>
+<a href="https://github.com/gauravmes9a11-alt/Hybrid-UAV-Propulsion-Framework">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=Hybrid-UAV-Propulsion-Framework&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="Hybrid UAV Propulsion Framework"/>
+</a>
+<a href="https://github.com/gauravmes9a11-alt/Drowsiness-Detector">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gauravmes9a11-alt&repo=Drowsiness-Detector&bg_color=0a1128&border_color=1e3a8a&title_color=00b4ff&text_color=c9d1d9&icon_color=38bdf8" alt="Drowsiness Detector"/>
+</a>
+
+<!--
+  ➕ ADD MORE PROJECTS: copy one block above and change repo=YourRepoName
+-->
+
+</div>
+
+---
+
+## 🏆 Highlights
+
+- 🥇 **First Place**, HAL × IIT Indore Aerothon 2026 Grand Finale: Hybrid-Electric Propulsion Optimisation (NSGA-II, ECMS, physics-based UAV models)
+- 🛩️ Capstone: **LaKD-UAV**, knowledge distillation for variable-length drone trajectory prediction
+- 🛰️ **PEIRL**: physics-guided cross-modal satellite image retrieval (Bharatiya Antariksh Hackathon 2026)
+- 🔐 Active in hackathons, aerospace design competitions and cybersecurity events
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1128,100:00b4ff&height=120&section=footer&text=Clear%20skies%20ahead%20%E2%9C%88%EF%B8%8F&fontColor=ffffff&fontSize=22&animation=twinkling" width="100%" alt="footer"/>
+
+</div>
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
