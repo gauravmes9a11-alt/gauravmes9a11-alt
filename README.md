@@ -1,6 +1,8 @@
 <div align="center">
 
-# ✈️ GAURAV SHIVAKUMAR // AEROSPACE & AI/ML SYSTEMS
+<a href="https://github.com/gauravmes9a11-alt">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=3000&pause=1000&color=00B4FF&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B+I'm+Gaurav+Shivakumar!+%E2%9C%88%EF%B8%8F;AI%2FML+%26+Optimization+Lead;Hybrid-Electric+UAV+Propulsion+%F0%9F%9B%A9%EF%B8%8F;Aerothon+2026+Grand+Finale+Winner+%F0%9F%8F%86;Cleared+for+Mach+2.2%2B+Supersonic+Flight+%F0%9F%9A%80" alt="Hi, I'm Gaurav Shivakumar!"/>
+</a>
 ### **AI/ML & Optimization Lead · Hybrid-Electric UAV Propulsion · Aerothon 2026 Champion**
 
 <!-- Master Animated Aerospace Scene: Sukhoi Su-30MKI Supersonic Launch with Mach Diamonds & HUD Telemetry -->
