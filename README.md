@@ -76,48 +76,48 @@
 
 ## 💼 Projects
 
-### 💻 Backend Projects
+### 🛩️ Aerospace & Autonomous UAV Systems
 
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-USER_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="User Service"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PRODUCT_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Product Service"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PAYMENT_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Payment Service"/></a>
+<a href="https://github.com/gauravmes9a11-alt/AeroPulse"><img src="https://img.shields.io/badge/PROJECT-AEROPULSE-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="AeroPulse"/></a>
+<a href="https://github.com/gauravmes9a11-alt/AeroPulse-Simulation"><img src="https://img.shields.io/badge/PROJECT-AEROPULSE_SIMULATION-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="AeroPulse Simulation"/></a>
+<a href="https://github.com/gauravmes9a11-alt/LAKD-Simulation"><img src="https://img.shields.io/badge/PROJECT-LAKD_SIMULATION-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="LAKD Simulation"/></a>
 <br/>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-EMAIL_SERVICE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Email Service"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-TIC_TAC_TOE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Tic Tac Toe"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PARKING_LOT-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Parking Lot"/></a>
-<br/>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-CALCULATOR_APP-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="Calculator App"/></a>
+<a href="https://github.com/gauravmes9a11-alt/DRONE-TRAJECTORY-DATASET"><img src="https://img.shields.io/badge/PROJECT-DRONE_TRAJECTORY_DATASET-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Drone Trajectory Dataset"/></a>
+<a href="https://github.com/gauravmes9a11-alt/Flight-Management-System"><img src="https://img.shields.io/badge/PROJECT-FLIGHT_MANAGEMENT_SYSTEM-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Flight Management System"/></a>
 
 <br/>
 
-### ⚙️ Test Automation Projects
+### 🤖 AI, Machine Learning & Computer Vision
 
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PROJECT_NAME-00b4a0?style=for-the-badge&logo=github&labelColor=30363d" alt="Project Name"/></a>
+<a href="https://github.com/gauravmes9a11-alt/PEIRL"><img src="https://img.shields.io/badge/PROJECT-PEIRL_SATELLITE_VISION-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="PEIRL"/></a>
+<a href="https://github.com/gauravmes9a11-alt/Drowsiness-Detector"><img src="https://img.shields.io/badge/PROJECT-DROWSINESS_DETECTOR-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Drowsiness Detector"/></a>
+<a href="https://github.com/gauravmes9a11-alt/Real-Time-Object-Detection-with-YOLOv8"><img src="https://img.shields.io/badge/PROJECT-YOLOV8_OBJECT_DETECTION-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Real Time Object Detection with YOLOv8"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt/VERITAS"><img src="https://img.shields.io/badge/PROJECT-VERITAS_AI-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="VERITAS"/></a>
+<a href="https://github.com/gauravmes9a11-alt/FIFA-Prediction-Model"><img src="https://img.shields.io/badge/PROJECT-FIFA_PREDICTION_MODEL-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="FIFA Prediction Model"/></a>
+<a href="https://github.com/gauravmes9a11-alt/PromptWars-Chatbot"><img src="https://img.shields.io/badge/PROJECT-PROMPTWARS_CHATBOT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="PromptWars Chatbot"/></a>
+<br/>
+<a href="https://github.com/gauravmes9a11-alt/ml-mini-project-mi-risk-prediction"><img src="https://img.shields.io/badge/PROJECT-MI_RISK_PREDICTION-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="MI Risk Prediction"/></a>
+<a href="https://github.com/gauravmes9a11-alt/Resume_Pilot"><img src="https://img.shields.io/badge/PROJECT-RESUME_PILOT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Resume Pilot"/></a>
 
 <br/>
 
-### 🤖 AI Projects
+### 💻 Backend, OS & Systems Engineering
 
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-PANTRYPAL_RECIPE-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="PantryPal Recipe"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-OPENSTREAM_OTT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="OpenStream OTT"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-SHOPPING_AGENT-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Shopping Agent"/></a>
+<a href="https://github.com/gauravmes9a11-alt/PES1UG24AM104-pes-vcs"><img src="https://img.shields.io/badge/PROJECT-PES_VCS_ENGINE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="PES VCS Engine"/></a>
+<a href="https://github.com/gauravmes9a11-alt/OS-Jackfruit"><img src="https://img.shields.io/badge/PROJECT-OS_JACKFRUIT-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="OS Jackfruit"/></a>
+<a href="https://github.com/gauravmes9a11-alt/SpendSense"><img src="https://img.shields.io/badge/PROJECT-SPENDSENSE-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="SpendSense"/></a>
 <br/>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/PROJECT-FANTASY_CHARACTER_GENERATOR-00b4ff?style=for-the-badge&logo=github&labelColor=30363d" alt="Fantasy Character Generator"/></a>
+<a href="https://github.com/gauravmes9a11-alt/PathSnap-Team"><img src="https://img.shields.io/badge/PROJECT-PATHSNAP_MAPPER-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="PathSnap Mapper"/></a>
+<a href="https://github.com/gauravmes9a11-alt/college-timetable-generator"><img src="https://img.shields.io/badge/PROJECT-TIMETABLE_GENERATOR-007ec6?style=for-the-badge&logo=github&labelColor=30363d" alt="College Timetable Generator"/></a>
 
 <br/>
 
-### 🏷️ Google Labs
+### ⚙️ Software Engineering & Applied Tools
 
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-LOCATION_INTELLIGENCE_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Location Intelligence Agent"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-COFFEESHOP_AI_BARISTA-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Coffeeshop AI Barista"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-DATA_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Data Agent"/></a>
-<br/>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-COFFEESHOP_MANAGER_ASSISTANT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Coffeeshop Manager Assistant"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-SEARCH_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Search Agent"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-PAINT_AGENT-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Paint Agent"/></a>
-<br/>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-GEN_AI_MOD_APP-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="Gen AI Mod App"/></a>
-<a href="https://github.com/gauravmes9a11-alt"><img src="https://img.shields.io/badge/G_LAB-LANGCHAIN_FLUTTER_APP-2ea44f?style=for-the-badge&logo=google&labelColor=23272d" alt="LangChain Flutter App"/></a>
+<a href="https://github.com/gauravmes9a11-alt/SVD-Steganography"><img src="https://img.shields.io/badge/PROJECT-SVD_STEGANOGRAPHY-00b4a0?style=for-the-badge&logo=github&labelColor=30363d" alt="SVD Steganography"/></a>
+<a href="https://github.com/gauravmes9a11-alt/SE-Lab-Projects"><img src="https://img.shields.io/badge/PROJECT-SE_LAB_PROJECTS-00b4a0?style=for-the-badge&logo=github&labelColor=30363d" alt="SE Lab Projects"/></a>
+<a href="https://github.com/gauravmes9a11-alt/38-meteor-dodge"><img src="https://img.shields.io/badge/PROJECT-38_METEOR_DODGE-00b4a0?style=for-the-badge&logo=github&labelColor=30363d" alt="38 Meteor Dodge"/></a>
 
 ---
 
