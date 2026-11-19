@@ -1,100 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" width="100%" role="img" aria-label="Aerospace Flight Test Command - Sukhoi Su-30MKI Supersonic Launch">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" role="img" aria-label="Aerospace Flight Test Command - Sukhoi Su-30MKI Supersonic Flight">
   <defs>
-    <!-- Sky & Upper Atmosphere Gradients -->
-    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <!-- Background Atmospheric & Stratospheric Gradients -->
+    <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#020617"/>
-      <stop offset="30%" stop-color="#050e26"/>
-      <stop offset="65%" stop-color="#0a173b"/>
-      <stop offset="100%" stop-color="#0d1f50"/>
+      <stop offset="35%" stop-color="#060e24"/>
+      <stop offset="70%" stop-color="#0b1a3d"/>
+      <stop offset="92%" stop-color="#0f2659"/>
+      <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0.8"/>
     </linearGradient>
 
-    <radialGradient id="nebulaGlow" cx="68%" cy="22%" r="48%">
-      <stop offset="0%" stop-color="#1e1b4b" stop-opacity="0.65"/>
-      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.18"/>
+    <!-- Curvature of Earth Horizon Atmosphere Glow -->
+    <radialGradient id="earthAtmosphere" cx="50%" cy="120%" r="90%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="35%" stop-color="#0284c7" stop-opacity="0.12"/>
+      <stop offset="70%" stop-color="#0369a1" stop-opacity="0.04"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Runway & Concrete Ground Tarmac -->
-    <linearGradient id="tarmacGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0b1324"/>
-      <stop offset="20%" stop-color="#0f1a30"/>
-      <stop offset="100%" stop-color="#060a14"/>
-    </linearGradient>
-
-    <!-- Sukhoi Su-30MKI Metallic Airframe Shading -->
-    <linearGradient id="fuselageGrad" x1="0%" y1="0%" x2="100%" y2="30%">
+    <!-- Fighter Jet Airframe Metallic Shading -->
+    <linearGradient id="metallicFuselage" x1="0%" y1="0%" x2="100%" y2="40%">
       <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="15%" stop-color="#334155"/>
-      <stop offset="40%" stop-color="#64748b"/>
+      <stop offset="20%" stop-color="#334155"/>
+      <stop offset="45%" stop-color="#64748b"/>
       <stop offset="60%" stop-color="#94a3b8"/>
       <stop offset="85%" stop-color="#475569"/>
       <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
 
-    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="wingSpecular" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#475569"/>
-      <stop offset="35%" stop-color="#334155"/>
+      <stop offset="25%" stop-color="#334155"/>
       <stop offset="75%" stop-color="#1e293b"/>
       <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
 
-    <linearGradient id="canopyGrad" x1="15%" y1="0%" x2="85%" y2="100%">
+    <linearGradient id="canopyGlass" x1="10%" y1="0%" x2="90%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.95"/>
-      <stop offset="30%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="35%" stop-color="#0284c7" stop-opacity="0.85"/>
       <stop offset="70%" stop-color="#0369a1" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#082f49" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#082f49" stop-opacity="0.95"/>
     </linearGradient>
 
     <linearGradient id="titaniumNozzle" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0f172a"/>
       <stop offset="40%" stop-color="#334155"/>
       <stop offset="80%" stop-color="#64748b"/>
-      <stop offset="100%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
     </linearGradient>
 
-    <!-- Supersonic Afterburner Reheat Plasma Plume -->
-    <linearGradient id="abFlame" x1="100%" y1="50%" x2="0%" y2="50%">
+    <!-- Supersonic Mach Diamonds & Reheat Plasma Plume -->
+    <linearGradient id="afterburnerPlasma" x1="100%" y1="50%" x2="0%" y2="50%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="10%" stop-color="#e0f2fe"/>
-      <stop offset="25%" stop-color="#38bdf8"/>
+      <stop offset="8%" stop-color="#e0f2fe"/>
+      <stop offset="22%" stop-color="#38bdf8"/>
       <stop offset="45%" stop-color="#0284c7"/>
       <stop offset="70%" stop-color="#f97316"/>
       <stop offset="88%" stop-color="#dc2626" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#7c2d12" stop-opacity="0"/>
     </linearGradient>
 
-    <radialGradient id="machCore" cx="12%" cy="50%" r="50%">
+    <radialGradient id="machCore" cx="10%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="30%" stop-color="#67e8f9"/>
       <stop offset="70%" stop-color="#0284c7" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#0369a1" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="contrailTrail" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
-      <stop offset="30%" stop-color="#0ea5e9" stop-opacity="0.4"/>
-      <stop offset="75%" stop-color="#0284c7" stop-opacity="0.12"/>
+    <!-- Contrails & High-Speed Vapor Streaks -->
+    <linearGradient id="hypersonicContrail" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="25%" stop-color="#0ea5e9" stop-opacity="0.5"/>
+      <stop offset="70%" stop-color="#0284c7" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="radarBeam" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.5"/>
-      <stop offset="65%" stop-color="#00c0fa" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0072ff" stop-opacity="0"/>
+    <linearGradient id="vaporStreak" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e0f2fe" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Visual FX Filters -->
-    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <!-- Glow & HUD Neon Filters -->
+    <filter id="neonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="burnerBlur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5" result="blur2"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur1"/>
+    <filter id="burnerBloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur2"/>
+      <feGaussianBlur stdDeviation="1.8" result="blur1"/>
       <feMerge>
         <feMergeNode in="blur2"/>
         <feMergeNode in="blur1"/>
@@ -103,545 +100,318 @@
     </filter>
 
     <!-- Master Sukhoi Su-30MKI Fighter Component -->
-    <g id="sukhoiFighter">
-      <!-- Afterburner Engine Reheat System -->
-      <g id="burnerPlumes" class="afterburnerSys">
-        <!-- Supersonic Ionization Contrails -->
-        <polygon points="-460,-1.5 -112,-1.5 -112,1.5 -460,1.5" fill="url(#contrailTrail)"/>
-        <polygon points="-400,-7 -112,-3 -112,3 -400,7" fill="url(#contrailTrail)" opacity="0.6"/>
+    <g id="proSukhoiFighter">
+      <!-- Supersonic Engine Afterburners & Ionization Trails -->
+      <g id="thrustExhaust">
+        <!-- Hypersonic Ionization Contrails extending behind -->
+        <polygon points="-520,-1.5 -118,-1.5 -118,1.5 -520,1.5" fill="url(#hypersonicContrail)"/>
+        <polygon points="-460,-8 -118,-3.5 -118,3.5 -460,8" fill="url(#hypersonicContrail)" opacity="0.65"/>
+        <polygon points="-380,-16 -118,-5 -118,5 -380,16" fill="url(#hypersonicContrail)" opacity="0.3"/>
 
-        <!-- Upper Saturn AL-31FP Turbofan Afterburner -->
-        <g transform="translate(-112, -8)" class="flameFlicker">
-          <polygon points="0,-7 -140,-12 -175,-3 -140,5 0,7" fill="url(#abFlame)" filter="url(#burnerBlur)"/>
-          <ellipse cx="-48" cy="0" rx="48" ry="6" fill="url(#machCore)"/>
-          <!-- Supersonic Mach Diamonds -->
-          <polygon points="-12,0 -23,-3.2 -34,0 -23,3.2" fill="#ffffff" filter="url(#neonGlow)"/>
-          <polygon points="-40,0 -49,-2.8 -58,0 -49,2.8" fill="#e0f2fe" opacity="0.95"/>
-          <polygon points="-64,0 -72,-2.3 -80,0 -72,2.3" fill="#bae6fd" opacity="0.85"/>
-          <polygon points="-86,0 -93,-1.8 -100,0 -93,1.8" fill="#7dd3fc" opacity="0.7"/>
-          <polygon points="-106,0 -112,-1.2 -118,0 -112,1.2" fill="#38bdf8" opacity="0.5"/>
+        <!-- Upper Turbofan Reheat Flame -->
+        <g transform="translate(-118, -9)" class="reheatFlicker">
+          <polygon points="0,-7.5 -150,-13 -190,-3 -150,5.5 0,7.5" fill="url(#afterburnerPlasma)" filter="url(#burnerBloom)"/>
+          <ellipse cx="-52" cy="0" rx="52" ry="6.5" fill="url(#machCore)"/>
+          <!-- 5 Supersonic Mach Shock Diamonds -->
+          <polygon points="-12,0 -24,-3.5 -36,0 -24,3.5" fill="#ffffff" filter="url(#neonBlur)"/>
+          <polygon points="-44,0 -53,-3 -62,0 -53,3" fill="#e0f2fe" opacity="0.95"/>
+          <polygon points="-70,0 -78,-2.4 -86,0 -78,2.4" fill="#bae6fd" opacity="0.85"/>
+          <polygon points="-94,0 -101,-1.9 -108,0 -101,1.9" fill="#7dd3fc" opacity="0.7"/>
+          <polygon points="-116,0 -122,-1.3 -128,0 -122,1.3" fill="#38bdf8" opacity="0.5"/>
         </g>
 
-        <!-- Lower Saturn AL-31FP Turbofan Afterburner -->
-        <g transform="translate(-112, 9)" class="flameFlicker">
-          <polygon points="0,-7 -140,-12 -175,-3 -140,5 0,7" fill="url(#abFlame)" filter="url(#burnerBlur)"/>
-          <ellipse cx="-48" cy="0" rx="48" ry="6" fill="url(#machCore)"/>
-          <!-- Supersonic Mach Diamonds -->
-          <polygon points="-12,0 -23,-3.2 -34,0 -23,3.2" fill="#ffffff" filter="url(#neonGlow)"/>
-          <polygon points="-40,0 -49,-2.8 -58,0 -49,2.8" fill="#e0f2fe" opacity="0.95"/>
-          <polygon points="-64,0 -72,-2.3 -80,0 -72,2.3" fill="#bae6fd" opacity="0.85"/>
-          <polygon points="-86,0 -93,-1.8 -100,0 -93,1.8" fill="#7dd3fc" opacity="0.7"/>
-          <polygon points="-106,0 -112,-1.2 -118,0 -112,1.2" fill="#38bdf8" opacity="0.5"/>
+        <!-- Lower Turbofan Reheat Flame -->
+        <g transform="translate(-118, 10)" class="reheatFlicker">
+          <polygon points="0,-7.5 -150,-13 -190,-3 -150,5.5 0,7.5" fill="url(#afterburnerPlasma)" filter="url(#burnerBloom)"/>
+          <ellipse cx="-52" cy="0" rx="52" ry="6.5" fill="url(#machCore)"/>
+          <!-- 5 Supersonic Mach Shock Diamonds -->
+          <polygon points="-12,0 -24,-3.5 -36,0 -24,3.5" fill="#ffffff" filter="url(#neonBlur)"/>
+          <polygon points="-44,0 -53,-3 -62,0 -53,3" fill="#e0f2fe" opacity="0.95"/>
+          <polygon points="-70,0 -78,-2.4 -86,0 -78,2.4" fill="#bae6fd" opacity="0.85"/>
+          <polygon points="-94,0 -101,-1.9 -108,0 -101,1.9" fill="#7dd3fc" opacity="0.7"/>
+          <polygon points="-116,0 -122,-1.3 -128,0 -122,1.3" fill="#38bdf8" opacity="0.5"/>
         </g>
       </g>
 
-      <!-- Wingtip Condensation Vapor Ribbons -->
-      <path d="M-84,-44 Q-145,-45 -230,-43" stroke="#e0f2fe" stroke-width="1.8" fill="none" opacity="0.75" stroke-dasharray="10 5"/>
-      <path d="M-44,38 Q-105,42 -210,44" stroke="#e0f2fe" stroke-width="1.8" fill="none" opacity="0.75" stroke-dasharray="10 5"/>
+      <!-- Wingtip Condensation Vortices -->
+      <path d="M-90,-46 Q-160,-48 -260,-45" stroke="#bae6fd" stroke-width="2" fill="none" opacity="0.85" stroke-dasharray="12 6"/>
+      <path d="M-48,40 Q-118,44 -230,46" stroke="#bae6fd" stroke-width="2" fill="none" opacity="0.85" stroke-dasharray="12 6"/>
 
-      <!-- Twin Vertical Stabilizers (Canted Outward) -->
-      <!-- Starboard Fin (Far) -->
-      <polygon points="-78,-16 -115,-50 -98,-52 -54,-18" fill="#334155" stroke="#475569" stroke-width="0.8"/>
-      <polygon points="-115,-50 -98,-52 -100,-46 -113,-45" fill="#0284c7"/>
+      <!-- Twin Canted Vertical Stabilizers -->
+      <!-- Starboard Vertical Stabilizer (Far) -->
+      <polygon points="-84,-17 -122,-52 -104,-54 -58,-19" fill="#334155" stroke="#475569" stroke-width="0.8"/>
+      <polygon points="-122,-52 -104,-54 -106,-48 -120,-47" fill="#0284c7"/>
 
-      <!-- Delta Swept Wings with LERX (Leading-Edge Root Extensions) -->
+      <!-- Delta Swept Main Wings with LERX (Leading-Edge Root Extensions) -->
       <!-- Starboard Wing -->
-      <polygon points="-28,-12 -86,-44 -100,-43 -68,-12" fill="url(#wingGrad)" stroke="#64748b" stroke-width="0.8"/>
+      <polygon points="-30,-13 -92,-46 -106,-45 -72,-13" fill="url(#wingSpecular)" stroke="#64748b" stroke-width="0.8"/>
       <!-- Pylon & Astra BVR Missile (Starboard) -->
-      <rect x="-74" y="-38" width="30" height="2.8" rx="1.2" fill="#f1f5f9" stroke="#0284c7" stroke-width="0.5"/>
-      <polygon points="-44,-38 -39,-36.6 -44,-35.2" fill="#ef4444"/>
+      <rect x="-80" y="-40" width="32" height="3" rx="1.5" fill="#f8fafc" stroke="#0284c7" stroke-width="0.5"/>
+      <polygon points="-48,-40 -43,-38.5 -48,-37" fill="#ef4444"/>
 
       <!-- Port Wing (Fore) -->
-      <polygon points="16,6 -44,39 -72,38 -22,10" fill="url(#wingGrad)" stroke="#64748b" stroke-width="0.8"/>
+      <polygon points="18,6 -48,41 -78,40 -24,10" fill="url(#wingSpecular)" stroke="#64748b" stroke-width="0.8"/>
       <!-- Pylon & Astra BVR Missile (Port) -->
-      <rect x="-44" y="32" width="30" height="2.8" rx="1.2" fill="#f1f5f9" stroke="#0284c7" stroke-width="0.5"/>
-      <polygon points="-14,32 -9,33.4 -14,34.8" fill="#ef4444"/>
+      <rect x="-48" y="34" width="32" height="3" rx="1.5" fill="#f8fafc" stroke="#0284c7" stroke-width="0.5"/>
+      <polygon points="-16,34 -11,35.5 -16,37" fill="#ef4444"/>
 
-      <!-- Dual Titanium Thrust-Vectoring Exhaust Nozzles -->
-      <rect x="-116" y="-14" width="28" height="11" rx="2" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
-      <rect x="-116" y="3" width="28" height="11" rx="2" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
-      <line x1="-116" y1="-14" x2="-104" y2="-14" stroke="#f59e0b" stroke-width="1.2"/>
-      <line x1="-116" y1="14" x2="-104" y2="14" stroke="#f59e0b" stroke-width="1.2"/>
+      <!-- Twin Saturn AL-31FP Titanium Exhaust Nozzles -->
+      <rect x="-122" y="-15" width="30" height="12" rx="2.5" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
+      <rect x="-122" y="4" width="30" height="12" rx="2.5" fill="url(#titaniumNozzle)" stroke="#64748b" stroke-width="0.8"/>
+      <line x1="-122" y1="-15" x2="-108" y2="-15" stroke="#f59e0b" stroke-width="1.2"/>
+      <line x1="-122" y1="16" x2="-108" y2="16" stroke="#f59e0b" stroke-width="1.2"/>
 
       <!-- Aerodynamic Main Fuselage Body (Blended Wing-Body) -->
-      <path d="M-108,-15 L-62,-17 L-6,-15 L46,-10 L108,-4 L142,0 L108,4 L46,10 L-6,15 L-62,17 L-108,15 Z" fill="url(#fuselageGrad)" stroke="#94a3b8" stroke-width="1"/>
+      <path d="M-114,-16 L-66,-18 L-8,-16 L50,-11 L116,-4 L152,0 L116,4 L50,11 L-8,16 L-66,18 L-114,16 Z" fill="url(#metallicFuselage)" stroke="#94a3b8" stroke-width="1"/>
 
-      <!-- Chined LERX & Central Spine Fairing -->
-      <path d="M-82,-7 L-12,-9 L56,-5 L112,0 L56,5 L-12,9 L-82,7 Z" fill="#475569" opacity="0.65"/>
+      <!-- Chined LERX & Upper Central Spine Fairing -->
+      <path d="M-88,-7 L-14,-9 L60,-5 L120,0 L60,5 L-14,9 L-88,7 Z" fill="#475569" opacity="0.7"/>
 
       <!-- Port Vertical Stabilizer (Near) -->
-      <polygon points="-68,-4 -106,-40 -88,-42 -40,-6" fill="url(#fuselageGrad)" stroke="#94a3b8" stroke-width="0.9"/>
-      <polygon points="-106,-40 -88,-42 -90,-36 -104,-35" fill="#38bdf8"/>
-      <rect x="-85" y="-32" width="16" height="3" fill="#f59e0b" opacity="0.9"/>
+      <polygon points="-72,-4 -112,-42 -94,-44 -44,-6" fill="url(#metallicFuselage)" stroke="#94a3b8" stroke-width="0.9"/>
+      <polygon points="-112,-42 -94,-44 -96,-38 -110,-37" fill="#38bdf8"/>
+      <rect x="-91" y="-34" width="18" height="3.2" fill="#f59e0b" opacity="0.95"/> <!-- Formation Slime Light -->
 
       <!-- Tandem Bubble Cockpit Canopy -->
-      <path d="M24,-8 Q50,-19 82,-10 L92,-3 Q64,-2 24,-4 Z" fill="url(#canopyGrad)" stroke="#bae6fd" stroke-width="1.1" filter="url(#neonGlow)"/>
-      <ellipse cx="65" cy="-7" rx="3.5" ry="4.5" fill="#0f172a"/>
-      <ellipse cx="44" cy="-8" rx="3.5" ry="4.5" fill="#0f172a"/>
-      <path d="M67,-8 L69,-6 L66,-5" stroke="#38bdf8" stroke-width="0.8" fill="none"/>
+      <path d="M26,-9 Q54,-21 88,-11 L98,-3 Q68,-2 26,-4 Z" fill="url(#canopyGlass)" stroke="#bae6fd" stroke-width="1.2" filter="url(#neonBlur)"/>
+      <!-- Seated Pilot & WSO Silhouettes -->
+      <ellipse cx="70" cy="-8" rx="3.8" ry="5" fill="#0f172a"/>
+      <ellipse cx="48" cy="-9" rx="3.8" ry="5" fill="#0f172a"/>
+      <path d="M72,-9 L74,-7 L71,-6" stroke="#38bdf8" stroke-width="0.9" fill="none"/>
 
       <!-- Radome Nose Cone & Supersonic Pitot Probe -->
-      <path d="M108,-4 L142,0 L108,4 Z" fill="#334155" stroke="#64748b" stroke-width="0.8"/>
-      <line x1="142" y1="0" x2="164" y2="0" stroke="#f8fafc" stroke-width="1.5"/>
-      <circle cx="92" cy="-5" r="2.8" fill="#0284c7" stroke="#e0f2fe" stroke-width="0.6"/>
+      <path d="M116,-4 L152,0 L116,4 Z" fill="#334155" stroke="#64748b" stroke-width="0.8"/>
+      <line x1="152" y1="0" x2="176" y2="0" stroke="#f8fafc" stroke-width="1.6"/>
+      <!-- IRST (Infra-Red Search & Track) Optical Sensor -->
+      <circle cx="98" cy="-5" r="3" fill="#0284c7" stroke="#e0f2fe" stroke-width="0.7"/>
 
-      <!-- Active Strobe & Navigation Beacons -->
-      <circle cx="-86" cy="-44" r="2.2" fill="#ef4444" class="strobeRed"/>
-      <circle cx="-44" cy="39" r="2.2" fill="#22c55e" class="strobeGreen"/>
-      <circle cx="-106" cy="-41" r="2.5" fill="#ffffff" class="strobeWhite"/>
-      <circle cx="141" cy="0" r="1.5" fill="#38bdf8" class="pulseCyan"/>
+      <!-- Strobe & Navigation Beacons -->
+      <circle cx="-92" cy="-46" r="2.5" fill="#ef4444" class="strobeRed"/>
+      <circle cx="-48" cy="41" r="2.5" fill="#22c55e" class="strobeGreen"/>
+      <circle cx="-112" cy="-43" r="2.8" fill="#ffffff" class="strobeWhite"/>
+      <circle cx="151" cy="0" r="1.8" fill="#38bdf8" class="pulseCyan"/>
     </g>
   </defs>
 
   <style><![CDATA[
-    /* Global Fonts & Styling */
-    .mono { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace; font-size: 13px; font-weight: 600; }
-    .hudText { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; font-size: 11px; fill: #38bdf8; letter-spacing: 1px; }
+    /* Professional Aviation Typography */
+    .hudText { font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace; font-size: 11px; fill: #38bdf8; letter-spacing: 1.2px; font-weight: 600; }
+    .hudLarge { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; font-size: 14px; fill: #e0f2fe; font-weight: 700; letter-spacing: 1px; }
+    .hudDim { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; font-size: 9.5px; fill: #64748b; letter-spacing: 0.8px; }
 
-    /* Flashing Navigation Strobes */
+    /* Strobe Lights */
     .strobeRed { animation: flashRed 1.2s steps(1) infinite; }
-    @keyframes flashRed { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 4px #ef4444); } 51%, 100% { opacity: 0.15; } }
+    @keyframes flashRed { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 5px #ef4444); } 51%, 100% { opacity: 0.15; } }
 
     .strobeGreen { animation: flashGreen 1.2s steps(1) infinite; }
-    @keyframes flashGreen { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 4px #22c55e); } 51%, 100% { opacity: 0.15; } }
+    @keyframes flashGreen { 0%, 50% { opacity: 1; filter: drop-shadow(0 0 5px #22c55e); } 51%, 100% { opacity: 0.15; } }
 
     .strobeWhite { animation: flashWhite 0.8s steps(1) infinite; }
-    @keyframes flashWhite { 0%, 20% { opacity: 1; filter: drop-shadow(0 0 6px #fff); } 21%, 100% { opacity: 0.1; } }
+    @keyframes flashWhite { 0%, 20% { opacity: 1; filter: drop-shadow(0 0 7px #fff); } 21%, 100% { opacity: 0.1; } }
 
     .pulseCyan { animation: pulseCy 2s ease-in-out infinite; }
-    @keyframes pulseCy { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; filter: drop-shadow(0 0 5px #38bdf8); } }
+    @keyframes pulseCy { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; filter: drop-shadow(0 0 6px #38bdf8); } }
 
-    /* Acoustic Reheat Vibration */
-    .flameFlicker { animation: abRumble 0.1s ease-in-out infinite alternate; }
-    @keyframes abRumble { from { transform: scaleX(0.96) scaleY(0.97); } to { transform: scaleX(1.04) scaleY(1.03); } }
+    /* High-Frequency Flame Acoustic Reheat Vibration */
+    .reheatFlicker { animation: abRumble 0.09s ease-in-out infinite alternate; }
+    @keyframes abRumble { from { transform: scaleX(0.97) scaleY(0.98); } to { transform: scaleX(1.03) scaleY(1.02); } }
 
-    /* Afterburner Reheat Power Modulation */
-    .afterburnerSys { animation: abThrust 15s linear infinite; }
-    @keyframes abThrust {
-      0%, 28%  { opacity: 0.35; transform: scaleX(0.5); }
-      34%      { opacity: 0.85; transform: scaleX(0.9); }
-      38%, 62% { opacity: 1.0; transform: scaleX(1.05); }
-      63%, 66% { opacity: 0; }
-      67%, 94% { opacity: 0.8; transform: scaleX(0.85); }
-      95%, 100%{ opacity: 0; }
+    /* Master Supersonic Soaring Flight Profile */
+    .supersonicJetMotion {
+      animation: aeroFlight 12s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
     }
-
-    /* Starfield Twinkle */
-    .starFast { animation: twFast 2.5s ease-in-out infinite alternate; }
-    .starMid  { animation: twMid 4s ease-in-out infinite alternate; }
-    .starSlow { animation: twSlow 6s ease-in-out infinite alternate; }
-    @keyframes twFast { from { opacity: 0.2; } to { opacity: 1; } }
-    @keyframes twMid  { from { opacity: 0.15; } to { opacity: 0.9; } }
-    @keyframes twSlow { from { opacity: 0.1; } to { opacity: 0.7; } }
-
-    /* Orbital Satellite */
-    .satellite { animation: satPass 24s linear infinite; }
-    @keyframes satPass {
-      0%   { transform: translate(-40px, 30px); opacity: 0; }
-      5%   { opacity: 0.85; }
-      90%  { opacity: 0.85; }
-      100% { transform: translate(960px, 120px); opacity: 0; }
-    }
-
-    /* ATC Radar Tower Parabolic Rotation & PPI Sweep */
-    .dishRotate { transform-origin: 110px 248px; animation: dishSweep 6s ease-in-out infinite alternate; }
-    @keyframes dishSweep { 0% { transform: rotate(-35deg); } 100% { transform: rotate(35deg); } }
-
-    .radarSweepBeam { transform-origin: 110px 248px; animation: sweepBeam 6s linear infinite; }
-    @keyframes sweepBeam {
-      0%   { transform: rotate(0deg); opacity: 0.55; }
-      50%  { opacity: 0.85; }
-      100% { transform: rotate(360deg); opacity: 0.55; }
-    }
-
-    /* Runway Sequenced Approach Lights (ALS "The Rabbit") */
-    .runwaySeq1 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.0s; }
-    .runwaySeq2 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.2s; }
-    .runwaySeq3 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.4s; }
-    .runwaySeq4 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.6s; }
-    .runwaySeq5 { animation: rwyPulse 1.5s linear infinite; animation-delay: 0.8s; }
-    .runwaySeq6 { animation: rwyPulse 1.5s linear infinite; animation-delay: 1.0s; }
-    .runwaySeq7 { animation: rwyPulse 1.5s linear infinite; animation-delay: 1.2s; }
-    @keyframes rwyPulse {
-      0%, 100% { fill: #0284c7; opacity: 0.25; }
-      30%      { fill: #38bdf8; opacity: 1; filter: drop-shadow(0 0 6px #38bdf8); }
-      60%      { fill: #0284c7; opacity: 0.25; }
-    }
-
-    /* Master Sukhoi Flight Profile (15s Loop) */
-    .fighterMission {
-      transform-origin: 0px 0px;
-      animation: flightProfile 15s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-    }
-    @keyframes flightProfile {
+    @keyframes aeroFlight {
       0% {
-        transform: translate(-260px, 352px) scale(0.68) rotate(0deg);
-        opacity: 0;
+        transform: translate(440px, 195px) rotate(0deg);
       }
-      4% {
-        transform: translate(-60px, 352px) scale(0.72) rotate(0deg);
-        opacity: 1;
+      20% {
+        transform: translate(470px, 175px) rotate(-3.5deg);
       }
-      28% {
-        transform: translate(320px, 350px) scale(0.78) rotate(-2deg);
-        opacity: 1;
+      45% {
+        transform: translate(425px, 160px) rotate(-1.5deg);
       }
-      38% {
-        /* Rotation & Lift-Off */
-        transform: translate(520px, 335px) scale(0.85) rotate(-14deg);
-        opacity: 1;
+      70% {
+        transform: translate(460px, 205px) rotate(2.5deg);
       }
-      54% {
-        /* High-Rate Climb with Full Reheat */
-        transform: translate(840px, 190px) scale(0.96) rotate(-26deg);
-        opacity: 1;
+      88% {
+        transform: translate(435px, 215px) rotate(1deg);
       }
-      62% {
-        transform: translate(1050px, 80px) scale(1.05) rotate(-30deg);
-        opacity: 0;
-      }
-      63% {
-        /* High-Altitude Supersonic Stratospheric Ingress */
-        transform: translate(-280px, 110px) scale(0.62) rotate(2deg);
-        opacity: 0;
-      }
-      66% {
-        opacity: 1;
-        transform: translate(-80px, 108px) scale(0.62) rotate(2deg);
-      }
-      94% {
-        opacity: 1;
-        transform: translate(1020px, 92px) scale(0.62) rotate(-1deg);
-      }
-      97%, 100% {
-        opacity: 0;
-        transform: translate(1060px, 92px) scale(0.62) rotate(-1deg);
+      100% {
+        transform: translate(440px, 195px) rotate(0deg);
       }
     }
 
-    /* Supersonic Transonic Vapor Shock Ring */
-    .sonicShockRing {
+    /* Supersonic Transonic Vapor Shock Expansion */
+    .transonicShockCone {
       transform-origin: center;
-      animation: shockPulse 15s cubic-bezier(0.2, 0.8, 0.3, 1) infinite;
-      opacity: 0;
+      animation: vaporPulse 6s ease-out infinite;
     }
-    @keyframes shockPulse {
-      0%, 46% { opacity: 0; transform: translate(560px, 320px) scale(0.2); }
-      48%     { opacity: 0.95; transform: translate(560px, 320px) scale(0.45); }
-      54%     { opacity: 0; transform: translate(660px, 270px) scale(2.8); }
-      100%    { opacity: 0; }
-    }
-
-    /* Pilot Silhouette Natural Breathing */
-    .pilotStanding { animation: pilotStance 5s ease-in-out infinite alternate; }
-    @keyframes pilotStance { 0% { transform: translateY(0); } 100% { transform: translateY(-1.5px); } }
-
-    /* Tactical HUD Lock Ring */
-    .hudLockRing { transform-origin: 680px 160px; animation: hudScan 8s linear infinite; }
-    @keyframes hudScan { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-
-    /* Universal Monospace Teletype Mask Animations (Pure CSS - 100% GitHub Compatible) */
-    .t0 { animation: t0vis 15s linear infinite; }
-    @keyframes t0vis { 0%, 23% { opacity: 1; } 23.5%, 100% { opacity: 0; } }
-    .c0 { animation: c0slide 15s linear infinite; }
-    @keyframes c0slide {
-      0%, 1.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(48, end); }
-      10.5%, 23% { transform: translateX(440px); opacity: 1; }
-      23.5%, 100% { transform: translateX(440px); opacity: 0; }
-    }
-    .k0 { animation: k0slide 15s linear infinite; }
-    @keyframes k0slide {
-      0%, 1.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(48, end); }
-      10.5%, 23% { transform: translateX(440px); opacity: 1; }
-      23.5%, 100% { opacity: 0; }
+    @keyframes vaporPulse {
+      0% { transform: scale(0.6); opacity: 0; }
+      40% { transform: scale(1.0); opacity: 0.85; }
+      70% { transform: scale(1.6); opacity: 0; }
+      100% { transform: scale(1.6); opacity: 0; }
     }
 
-    .t1 { animation: t1vis 15s linear infinite; }
-    @keyframes t1vis { 0%, 24.5% { opacity: 0; } 25%, 48% { opacity: 1; } 48.5%, 100% { opacity: 0; } }
-    .c1 { animation: c1slide 15s linear infinite; }
-    @keyframes c1slide {
-      0%, 25% { transform: translateX(0); opacity: 0; }
-      25.5%, 26.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(52, end); }
-      35.5%, 48% { transform: translateX(440px); opacity: 1; }
-      48.5%, 100% { transform: translateX(440px); opacity: 0; }
-    }
-    .k1 { animation: k1slide 15s linear infinite; }
-    @keyframes k1slide {
-      0%, 25% { transform: translateX(0); opacity: 0; }
-      25.5%, 26.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(52, end); }
-      35.5%, 48% { transform: translateX(440px); opacity: 1; }
-      48.5%, 100% { opacity: 0; }
+    /* Passing High-Altitude Vapor Streaks (Creates intense sense of supersonic speed) */
+    .streak1 { animation: passStreak 2.2s linear infinite; }
+    .streak2 { animation: passStreak 3.1s linear infinite; animation-delay: -1.2s; }
+    .streak3 { animation: passStreak 1.8s linear infinite; animation-delay: -0.7s; }
+    @keyframes passStreak {
+      0% { transform: translateX(960px); opacity: 0; }
+      10% { opacity: 0.8; }
+      90% { opacity: 0.8; }
+      100% { transform: translateX(-400px); opacity: 0; }
     }
 
-    .t2 { animation: t2vis 15s linear infinite; }
-    @keyframes t2vis { 0%, 49.5% { opacity: 0; } 50%, 73% { opacity: 1; } 73.5%, 100% { opacity: 0; } }
-    .c2 { animation: c2slide 15s linear infinite; }
-    @keyframes c2slide {
-      0%, 50% { transform: translateX(0); opacity: 0; }
-      50.5%, 51.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
-      60.5%, 73% { transform: translateX(440px); opacity: 1; }
-      73.5%, 100% { transform: translateX(440px); opacity: 0; }
+    /* HUD Reticle Dynamic Rotation & Scan */
+    .hudTargetScan {
+      transform-origin: 470px 185px;
+      animation: reticleSpin 10s linear infinite;
     }
-    .k2 { animation: k2slide 15s linear infinite; }
-    @keyframes k2slide {
-      0%, 50% { transform: translateX(0); opacity: 0; }
-      50.5%, 51.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
-      60.5%, 73% { transform: translateX(440px); opacity: 1; }
-      73.5%, 100% { opacity: 0; }
-    }
+    @keyframes reticleSpin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-    .t3 { animation: t3vis 15s linear infinite; }
-    @keyframes t3vis { 0%, 74.5% { opacity: 0; } 75%, 98% { opacity: 1; } 98.5%, 100% { opacity: 0; } }
-    .c3 { animation: c3slide 15s linear infinite; }
-    @keyframes c3slide {
-      0%, 75% { transform: translateX(0); opacity: 0; }
-      75.5%, 76.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
-      85.5%, 98% { transform: translateX(440px); opacity: 1; }
-      98.5%, 100% { transform: translateX(440px); opacity: 0; }
-    }
-    .k3 { animation: k3slide 15s linear infinite; }
-    @keyframes k3slide {
-      0%, 75% { transform: translateX(0); opacity: 0; }
-      75.5%, 76.5% { transform: translateX(0); opacity: 1; animation-timing-function: steps(50, end); }
-      85.5%, 98% { transform: translateX(440px); opacity: 1; }
-      98.5%, 100% { opacity: 0; }
-    }
-
-    .cursorBlink { animation: curBlink 0.65s steps(1) infinite; }
-    @keyframes curBlink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    /* Twinkling Space Stars */
+    .tw1 { animation: starTwinkle 3s ease-in-out infinite alternate; }
+    .tw2 { animation: starTwinkle 5s ease-in-out infinite alternate; }
+    @keyframes starTwinkle { from { opacity: 0.2; } to { opacity: 0.95; } }
   ]]></style>
 
-  <!-- Deep Aerospace Sky & Horizon Container -->
-  <rect width="920" height="480" rx="8" fill="#020617" stroke="#1e3a8a" stroke-width="1.5"/>
-  <rect x="2" y="2" width="916" height="372" rx="6" fill="url(#skyGrad)"/>
-  <rect x="2" y="2" width="916" height="372" rx="6" fill="url(#nebulaGlow)"/>
+  <!-- Deep Stratospheric Space Background Container -->
+  <rect width="920" height="380" rx="10" fill="#020617" stroke="#1e3a8a" stroke-width="1.4"/>
+  <rect x="2" y="2" width="916" height="376" rx="8" fill="url(#spaceGradient)"/>
+  <rect x="2" y="2" width="916" height="376" rx="8" fill="url(#earthAtmosphere)"/>
 
-  <!-- High-Orbit Satellite -->
-  <g class="satellite">
-    <circle cx="0" cy="0" r="1.6" fill="#e0f2fe" filter="url(#neonGlow)"/>
-    <line x1="-5" y1="0" x2="5" y2="0" stroke="#38bdf8" stroke-width="0.7"/>
-    <circle cx="0" cy="0" r="3" fill="none" stroke="#38bdf8" stroke-width="0.4" opacity="0.6"/>
+  <!-- High-Altitude Passing Supersonic Vapor Streaks -->
+  <g opacity="0.65">
+    <line x1="0" y1="80" x2="320" y2="80" stroke="url(#vaporStreak)" stroke-width="1.8" class="streak1"/>
+    <line x1="0" y1="140" x2="420" y2="140" stroke="url(#vaporStreak)" stroke-width="2.2" class="streak2"/>
+    <line x1="0" y1="280" x2="360" y2="280" stroke="url(#vaporStreak)" stroke-width="1.6" class="streak3"/>
   </g>
 
-  <!-- Multi-Magnitude Starfield -->
-  <g id="starField">
-    <circle cx="45" cy="35" r="1.3" fill="#ffffff" class="starFast"/>
-    <circle cx="120" cy="78" r="1.4" fill="#bae6fd" class="starMid"/>
-    <circle cx="185" cy="42" r="1.1" fill="#e0f2fe" class="starSlow"/>
-    <circle cx="260" cy="95" r="1.5" fill="#ffffff" class="starFast"/>
-    <circle cx="340" cy="38" r="1.2" fill="#bae6fd" class="starMid"/>
-    <circle cx="410" cy="85" r="1.3" fill="#ffffff" class="starSlow"/>
-    <circle cx="495" cy="45" r="1.5" fill="#e0f2fe" class="starFast"/>
-    <circle cx="580" cy="110" r="1.2" fill="#ffffff" class="starMid"/>
-    <circle cx="650" cy="55" r="1.4" fill="#bae6fd" class="starSlow"/>
-    <circle cx="730" cy="90" r="1.3" fill="#ffffff" class="starFast"/>
-    <circle cx="810" cy="40" r="1.4" fill="#e0f2fe" class="starMid"/>
-    <circle cx="885" cy="75" r="1.2" fill="#ffffff" class="starSlow"/>
+  <!-- Distant Starfield & Constellations -->
+  <g id="proStars">
+    <circle cx="65" cy="45" r="1.3" fill="#ffffff" class="tw1"/>
+    <circle cx="140" cy="95" r="1.1" fill="#bae6fd" class="tw2"/>
+    <circle cx="230" cy="55" r="1.4" fill="#ffffff" class="tw1"/>
+    <circle cx="310" cy="115" r="1.2" fill="#bae6fd" class="tw2"/>
+    <circle cx="410" cy="40" r="1.3" fill="#ffffff" class="tw1"/>
+    <circle cx="530" cy="90" r="1.5" fill="#bae6fd" class="tw2"/>
+    <circle cx="640" cy="50" r="1.2" fill="#ffffff" class="tw1"/>
+    <circle cx="750" cy="105" r="1.4" fill="#bae6fd" class="tw2"/>
+    <circle cx="840" cy="45" r="1.3" fill="#ffffff" class="tw1"/>
+    <circle cx="885" cy="110" r="1.1" fill="#bae6fd" class="tw2"/>
 
-    <circle cx="78" cy="140" r="0.8" fill="#93c5fd" opacity="0.6"/>
-    <circle cx="155" cy="170" r="0.9" fill="#93c5fd" opacity="0.7"/>
-    <circle cx="225" cy="130" r="0.7" fill="#93c5fd" opacity="0.5"/>
-    <circle cx="295" cy="165" r="0.8" fill="#93c5fd" opacity="0.6"/>
-    <circle cx="365" cy="125" r="0.9" fill="#93c5fd" opacity="0.7"/>
-    <circle cx="445" cy="155" r="0.7" fill="#93c5fd" opacity="0.5"/>
-    <circle cx="525" cy="135" r="0.8" fill="#93c5fd" opacity="0.6"/>
-    <circle cx="605" cy="175" r="0.9" fill="#93c5fd" opacity="0.7"/>
-    <circle cx="695" cy="140" r="0.8" fill="#93c5fd" opacity="0.5"/>
-    <circle cx="775" cy="160" r="0.9" fill="#93c5fd" opacity="0.6"/>
-    <circle cx="855" cy="130" r="0.7" fill="#93c5fd" opacity="0.5"/>
+    <circle cx="180" cy="155" r="0.8" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="290" cy="220" r="0.9" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="680" cy="240" r="0.8" fill="#93c5fd" opacity="0.6"/>
+    <circle cx="790" cy="170" r="0.9" fill="#93c5fd" opacity="0.6"/>
   </g>
 
-  <!-- Distant Mountain Ridge Horizon -->
-  <path d="M0,355 L65,340 L140,350 L210,332 L290,348 L380,336 L470,352 L560,338 L660,349 L760,334 L840,347 L920,338 L920,360 L0,360 Z" fill="#070f23" opacity="0.85"/>
+  <!-- Curved Horizon Stratospheric Boundary Line -->
+  <path d="M0,330 Q460,305 920,330 L920,380 L0,380 Z" fill="#040b1e" opacity="0.85"/>
+  <path d="M0,330 Q460,305 920,330" stroke="#0284c7" stroke-width="1.5" fill="none" opacity="0.4"/>
 
-  <!-- Tactical Aerospace HUD Overlay -->
-  <g id="hudDisplay" opacity="0.7">
-    <!-- Pitch Ladder -->
-    <g stroke="#38bdf8" stroke-width="0.9" opacity="0.45">
-      <line x1="390" y1="140" x2="430" y2="140"/><line x1="490" y1="140" x2="530" y2="140"/>
-      <line x1="410" y1="170" x2="440" y2="170"/><line x1="480" y1="170" x2="510" y2="170"/>
-      <line x1="390" y1="200" x2="430" y2="200"/><line x1="490" y1="200" x2="530" y2="200"/>
+  <!-- Tactical Aerospace HUD Overlay Framework -->
+  <g id="tacticalHUD" opacity="0.85">
+    <!-- Top Heading Ribbon -->
+    <g transform="translate(310, 18)">
+      <rect x="0" y="0" width="300" height="22" rx="3" fill="#060c1d" stroke="#1e3a8a" stroke-width="1" opacity="0.8"/>
+      <!-- Compass Ticks & Labels -->
+      <g class="hudDim" text-anchor="middle">
+        <text x="30" y="15">070</text>
+        <text x="90" y="15">080</text>
+        <text x="150" y="15" fill="#38bdf8" font-weight="700">092°</text>
+        <text x="210" y="15">100</text>
+        <text x="270" y="15">110</text>
+      </g>
+      <!-- Active Heading Indicator Marker -->
+      <polygon points="150,0 146,5 154,5" fill="#38bdf8"/>
     </g>
 
-    <!-- Telemetry Readouts -->
-    <g class="hudText">
-      <text x="32" y="32">SYS: ONLINE [AUTO-FLIGHT]</text>
-      <text x="32" y="48">AIRSPEED: MACH 2.25</text>
-      <text x="32" y="64">ALT: 38,500 FT MSL</text>
-      <text x="32" y="80">G-LOAD: +6.4G</text>
+    <!-- Left HUD Tape: Airspeed & Mach Status -->
+    <g transform="translate(24, 65)">
+      <!-- Panel Base -->
+      <rect x="0" y="0" width="165" height="110" rx="4" fill="#060c1d" stroke="#1e3a8a" stroke-width="1" opacity="0.85"/>
+      <line x1="0" y1="0" x2="165" y2="0" stroke="#38bdf8" stroke-width="1.8"/>
 
-      <text x="740" y="32">HDG: 092° MAG</text>
-      <text x="740" y="48">THRUST: 2x 123 kN</text>
-      <text x="740" y="64">RADAR: TWS ACTIVE</text>
-      <text x="740" y="80">TGT: AIRBORNE [LOCKED]</text>
+      <g class="hudText" transform="translate(12, 22)">
+        <text x="0" y="0" fill="#64748b" font-size="9">AIRSPEED INDICATOR</text>
+        <text x="0" y="22" class="hudLarge">MACH 2.38</text>
+        <text x="0" y="42">CAS: 680 KTS</text>
+        <text x="0" y="58">AoA: +4.2° NOMINAL</text>
+        <text x="0" y="74">DYNAMIC Q: 48 kPa</text>
+      </g>
     </g>
 
-    <!-- Targeting Bracket -->
-    <g transform="translate(680, 160)" class="hudLockRing">
-      <circle cx="0" cy="0" r="28" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="14 10"/>
-      <line x1="-34" y1="0" x2="-24" y2="0" stroke="#38bdf8" stroke-width="1.4"/>
-      <line x1="24" y1="0" x2="34" y2="0" stroke="#38bdf8" stroke-width="1.4"/>
-      <line x1="0" y1="-34" x2="0" y2="-24" stroke="#38bdf8" stroke-width="1.4"/>
-      <line x1="0" y1="24" x2="0" y2="34" stroke="#38bdf8" stroke-width="1.4"/>
+    <!-- Right HUD Tape: Altitude & Flight Vector -->
+    <g transform="translate(731, 65)">
+      <!-- Panel Base -->
+      <rect x="0" y="0" width="165" height="110" rx="4" fill="#060c1d" stroke="#1e3a8a" stroke-width="1" opacity="0.85"/>
+      <line x1="0" y1="0" x2="165" y2="0" stroke="#38bdf8" stroke-width="1.8"/>
+
+      <g class="hudText" transform="translate(12, 22)">
+        <text x="0" y="0" fill="#64748b" font-size="9">BAROMETRIC ALTITUDE</text>
+        <text x="0" y="22" class="hudLarge">45,200 FT</text>
+        <text x="0" y="42">V/S: +12,500 FPM</text>
+        <text x="0" y="58">G-LOAD: +5.8 G</text>
+        <text x="0" y="74">RADAR: ACTIVE TWS</text>
+      </g>
+    </g>
+
+    <!-- Central Pitch Ladder & Flight Path Vector (Boresight) -->
+    <g stroke="#38bdf8" stroke-width="1.2" opacity="0.45">
+      <line x1="390" y1="140" x2="430" y2="140"/><line x1="510" y1="140" x2="550" y2="140"/>
+      <line x1="410" y1="170" x2="440" y2="170"/><line x1="500" y1="170" x2="530" y2="170"/>
+      <line x1="390" y1="200" x2="430" y2="200"/><line x1="510" y1="200" x2="550" y2="200"/>
+    </g>
+
+    <!-- HUD Targeting & Mission Lock Reticle -->
+    <g class="hudTargetScan">
+      <circle cx="470" cy="185" r="32" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-dasharray="16 10"/>
+      <line x1="430" y1="185" x2="442" y2="185" stroke="#38bdf8" stroke-width="1.5"/>
+      <line x1="498" y1="185" x2="510" y2="185" stroke="#38bdf8" stroke-width="1.5"/>
+      <line x1="470" y1="145" x2="470" y2="157" stroke="#38bdf8" stroke-width="1.5"/>
+      <line x1="470" y1="213" x2="470" y2="225" stroke="#38bdf8" stroke-width="1.5"/>
+    </g>
+
+    <!-- Transonic Aerodynamic Vapor Shock Cone (Expands when crossing Mach 1) -->
+    <g transform="translate(470, 185)" class="transonicShockCone">
+      <ellipse cx="-20" cy="0" rx="35" ry="50" fill="none" stroke="#bae6fd" stroke-width="3" filter="url(#neonBlur)" opacity="0.8"/>
     </g>
   </g>
 
-  <!-- Flight Base Concrete Tarmac & Runway -->
-  <rect x="0" y="356" width="920" height="124" fill="url(#tarmacGrad)"/>
-  <line x1="0" y1="356" x2="920" y2="356" stroke="#1e3a8a" stroke-width="1.6"/>
-  <line x1="0" y1="368" x2="920" y2="368" stroke="#172554" stroke-width="1"/>
-  <line x1="0" y1="392" x2="920" y2="392" stroke="#1e293b" stroke-width="1"/>
-
-  <!-- Runway Centerline Stripe -->
-  <g stroke="#38bdf8" stroke-width="2" stroke-dasharray="32 24" opacity="0.4">
-    <line x1="0" y1="376" x2="920" y2="376"/>
+  <!-- Master Fighter Jet in Flight Motion -->
+  <g class="supersonicJetMotion">
+    <use href="#proSukhoiFighter"/>
   </g>
 
-  <!-- Sequenced Approach Lights (ALS "The Rabbit") -->
-  <circle cx="80" cy="376" r="3.2" class="runwaySeq1"/>
-  <circle cx="190" cy="376" r="3.2" class="runwaySeq2"/>
-  <circle cx="310" cy="376" r="3.2" class="runwaySeq3"/>
-  <circle cx="440" cy="376" r="3.2" class="runwaySeq4"/>
-  <circle cx="570" cy="376" r="3.2" class="runwaySeq5"/>
-  <circle cx="700" cy="376" r="3.2" class="runwaySeq6"/>
-  <circle cx="830" cy="376" r="3.2" class="runwaySeq7"/>
+  <!-- Lower Aerospace Telemetry Command Footer Bar -->
+  <g transform="translate(24, 336)">
+    <!-- Base Ribbon -->
+    <rect x="0" y="0" width="872" height="30" rx="4" fill="#050b1a" stroke="#1e3a8a" stroke-width="1.2"/>
+    <rect x="1" y="1" width="870" height="28" rx="3" fill="#081430" opacity="0.6"/>
 
-  <!-- Threshold & Taxiway Beacons -->
-  <circle cx="15" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
-  <circle cx="35" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
-  <circle cx="55" cy="356" r="2.5" fill="#22c55e" filter="url(#neonGlow)"/>
+    <!-- Corner Accents -->
+    <line x1="0" y1="0" x2="12" y2="0" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="872" y1="0" x2="860" y2="0" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="0" y1="30" x2="12" y2="30" stroke="#38bdf8" stroke-width="2"/>
+    <line x1="872" y1="30" x2="860" y2="30" stroke="#38bdf8" stroke-width="2"/>
 
-  <circle cx="160" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="280" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="400" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="520" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="640" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="760" cy="356" r="2.2" fill="#0284c7"/>
-  <circle cx="880" cy="356" r="2.2" fill="#0284c7"/>
-
-  <!-- Hardened Aircraft Shelter (HAS) / Hangar Dome -->
-  <g transform="translate(480, 260)">
-    <path d="M-90,96 C-90,20 90,20 90,96 Z" fill="#0f172a" stroke="#334155" stroke-width="2"/>
-    <path d="M-76,96 C-76,32 76,32 76,96 Z" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
-    <rect x="-48" y="52" width="96" height="44" rx="4" fill="#090d16" stroke="#0284c7" stroke-width="1.2"/>
-    <polygon points="-36,52 36,52 44,96 -44,96" fill="#38bdf8" opacity="0.12"/>
-    <line x1="-48" y1="94" x2="48" y2="94" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 6"/>
-    <circle cx="0" cy="20" r="3.5" fill="#22c55e" class="pulseCyan"/>
-  </g>
-
-  <!-- ATC Air Traffic Control & Radar Tower -->
-  <g transform="translate(110, 200)">
-    <polygon points="-24,156 24,156 16,50 -16,50" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
-    <line x1="-20" y1="135" x2="18" y2="105" stroke="#1e293b" stroke-width="1.2"/>
-    <line x1="20" y1="135" x2="-18" y2="105" stroke="#1e293b" stroke-width="1.2"/>
-    <line x1="-18" y1="105" x2="16" y2="75" stroke="#1e293b" stroke-width="1.2"/>
-    <line x1="18" y1="105" x2="-16" y2="75" stroke="#1e293b" stroke-width="1.2"/>
-
-    <polygon points="-28,50 28,50 22,26 -22,26" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
-    <polygon points="-24,46 24,46 19,29 -19,29" fill="#0284c7" opacity="0.35"/>
-    <rect x="-14" y="38" width="28" height="6" fill="#38bdf8" opacity="0.75" class="pulseCyan"/>
-
-    <line x1="0" y1="26" x2="0" y2="2" stroke="#64748b" stroke-width="3"/>
-    <g class="dishRotate">
-      <path d="M-26,-2 C-16,14 16,14 26,-2 Z" fill="#334155" stroke="#38bdf8" stroke-width="1.4"/>
-      <line x1="0" y1="7" x2="0" y2="-12" stroke="#94a3b8" stroke-width="1.8"/>
-      <circle cx="0" cy="-12" r="2.5" fill="#ef4444" class="strobeRed"/>
+    <!-- Operational Status Pill -->
+    <g transform="translate(12, 7)">
+      <circle cx="6" cy="8" r="3.5" fill="#22c55e" class="pulseCyan"/>
+      <text x="16" y="12" class="hudText" fill="#38bdf8" font-size="10">SYS: FLIGHT OPS ACTIVE</text>
     </g>
 
-    <g class="radarSweepBeam" opacity="0.35">
-      <path d="M0,0 L65,-40 A75,75 0 0,1 75,10 Z" fill="url(#radarBeam)"/>
+    <!-- Telemetry Teleprinter Line -->
+    <g transform="translate(240, 7)" class="hudText" font-size="10">
+      <text x="0" y="12">CALLSIGN: GAURAV S. // PROPULSION: 104% REHEAT // MISSION: AIR SUPERIORITY &amp; UAV OPTIMIZATION</text>
     </g>
 
-    <circle cx="-27" cy="50" r="2.2" fill="#ef4444" class="strobeRed"/>
-    <circle cx="27" cy="50" r="2.2" fill="#ef4444" class="strobeRed"/>
-  </g>
-
-  <!-- Flight Line Telemetry Mast & Comms Array -->
-  <g transform="translate(820, 270)">
-    <line x1="0" y1="86" x2="0" y2="10" stroke="#334155" stroke-width="2.5"/>
-    <line x1="-12" y1="26" x2="12" y2="26" stroke="#475569" stroke-width="1.4"/>
-    <line x1="-8" y1="42" x2="8" y2="42" stroke="#475569" stroke-width="1.4"/>
-    <circle cx="0" cy="8" r="2.5" fill="#ef4444" class="strobeRed"/>
-    <line x1="0" y1="18" x2="16" y2="14" stroke="#64748b" stroke-width="1"/>
-    <circle cx="16" cy="14" r="2" fill="#22c55e" class="strobeGreen"/>
-  </g>
-
-  <!-- Fighter Pilot Standing on Flight Line -->
-  <g transform="translate(230, 356)" class="pilotStanding">
-    <ellipse cx="0" cy="0" rx="14" ry="3.5" fill="#000000" opacity="0.6"/>
-
-    <path d="M-5,0 L-4,-14 L-2,-26 L-5,-26 L-7,-14 L-9,0 Z" fill="#0f172a" stroke="#1e293b" stroke-width="0.6"/>
-    <path d="M4,0 L3,-14 L1,-26 L4,-26 L6,-14 L8,0 Z" fill="#0f172a" stroke="#1e293b" stroke-width="0.6"/>
-
-    <path d="M-8,-26 L-10,-44 L-8,-52 L8,-52 L10,-44 L8,-26 Z" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
-    <line x1="-6" y1="-50" x2="6" y2="-30" stroke="#0284c7" stroke-width="1" opacity="0.8"/>
-    <line x1="6" y1="-50" x2="-6" y2="-30" stroke="#0284c7" stroke-width="1" opacity="0.8"/>
-    <rect x="-3" y="-46" width="6" height="4" fill="#38bdf8" opacity="0.7"/>
-
-    <path d="M-10,-50 L-16,-38 L-14,-28 L-10,-32" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none"/>
-    <rect x="-17" y="-34" width="8" height="11" rx="1.5" fill="#0284c7" stroke="#38bdf8" stroke-width="0.6"/>
-    <path d="M10,-50 L16,-38 L12,-30" stroke="#1e293b" stroke-width="3" stroke-linecap="round" fill="none"/>
-    <circle cx="13" cy="-30" r="5" fill="#334155" stroke="#38bdf8" stroke-width="0.8"/>
-
-    <ellipse cx="0" cy="-58" rx="5" ry="6" fill="#1e293b"/>
-    <path d="M-5,-61 Q0,-66 5,-61 L5,-57 L-5,-57 Z" fill="#0284c7"/>
-    <path d="M-5,-58 Q0,-63 5,-58" stroke="#94a3b8" stroke-width="1" fill="none"/>
-    <circle cx="-5" cy="-58" r="1.5" fill="#38bdf8"/>
-    <circle cx="5" cy="-58" r="1.5" fill="#38bdf8"/>
-  </g>
-
-  <!-- Supersonic Transonic Vapor Shock Ring -->
-  <circle cx="0" cy="0" r="42" fill="none" stroke="#bae6fd" stroke-width="4" filter="url(#neonGlow)" class="sonicShockRing"/>
-
-  <!-- Master Sukhoi Su-30MKI Animated Jet Group -->
-  <g class="fighterMission">
-    <use href="#sukhoiFighter"/>
-  </g>
-
-  <!-- Lower Cyber HUD Telemetry Console & Terminal Typewriter -->
-  <g transform="translate(100, 420)">
-    <!-- Base Housing -->
-    <rect x="0" y="0" width="720" height="48" rx="6" fill="#060c1d" stroke="#1e3a8a" stroke-width="1.4"/>
-    <rect x="2" y="2" width="716" height="44" rx="4" fill="#0a132c" opacity="0.95"/>
-
-    <!-- Cyber Corners -->
-    <path d="M0,10 L0,0 L10,0" stroke="#38bdf8" stroke-width="2" fill="none"/>
-    <path d="M720,10 L720,0 L710,0" stroke="#38bdf8" stroke-width="2" fill="none"/>
-    <path d="M0,38 L0,48 L10,48" stroke="#38bdf8" stroke-width="2" fill="none"/>
-    <path d="M720,38 L720,48 L710,48" stroke="#38bdf8" stroke-width="2" fill="none"/>
-
-    <!-- Status Indicator Pill -->
-    <rect x="14" y="14" width="78" height="20" rx="10" fill="#0f224a" stroke="#0284c7" stroke-width="1"/>
-    <circle cx="25" cy="24" r="3.5" fill="#22c55e" class="pulseCyan"/>
-    <text x="34" y="28" font-family="monospace" font-size="9.5" font-weight="700" fill="#38bdf8">AIRBORNE</text>
-
-    <!-- Synchronized Monospace Teletype Sequences (15s Loop) -->
-    <!-- Message 0: Callsign & Lead -->
-    <g class="t0">
-      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">CALLSIGN: GAURAV S. // AI/ML &amp; OPTIMIZATION LEAD</text>
-      <rect class="c0" x="108" y="10" width="460" height="30" fill="#0a132c"/>
-      <rect class="k0 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
-    </g>
-
-    <!-- Message 1: UAV Propulsion Mission -->
-    <g class="t1">
-      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">MISSION: HYBRID-ELECTRIC PROPULSION &amp; AUTONOMOUS UAVs</text>
-      <rect class="c1" x="108" y="10" width="460" height="30" fill="#0a132c"/>
-      <rect class="k1 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
-    </g>
-
-    <!-- Message 2: Championship Title -->
-    <g class="t2">
-      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">WINNER: 1ST PLACE - HAL × IIT INDORE AEROTHON '26 🏆</text>
-      <rect class="c2" x="108" y="10" width="460" height="30" fill="#0a132c"/>
-      <rect class="k2 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
-    </g>
-
-    <!-- Message 3: Supersonic Status -->
-    <g class="t3">
-      <text x="108" y="29" fill="#38bdf8" textLength="440" lengthAdjust="spacing" class="mono">STATUS: CLEARED FOR MACH 2.2+ SUPERSONIC FLIGHT ✈️</text>
-      <rect class="c3" x="108" y="10" width="460" height="30" fill="#0a132c"/>
-      <rect class="k3 cursorBlink" x="108" y="15" width="3" height="18" fill="#7dd3fc" filter="url(#neonGlow)" />
+    <!-- Right Side Frequency / Code -->
+    <g transform="translate(740, 7)" class="hudText" font-size="10" fill="#64748b">
+      <text x="0" y="12">FREQ: 121.500 | SQWK: 7700</text>
     </g>
   </g>
 </svg>
