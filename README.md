@@ -1,12 +1,9 @@
 <div align="center">
 
-<!-- ✈️ Sukhoi jet animation (file: assets/sukhoi-jet.svg) -->
-<img src="assets/sukhoi-jet.svg" alt="Sukhoi jet flying across the night sky" width="100%"/>
+# Hi 👋, I'm Gaurav S.! ✈️
 
-<!-- Typing tagline -->
-<a href="https://github.com/gauravmes9a11-alt">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00B4FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I'm+Gaurav+S.;AI%2FML+%26+Optimization+Engineer;Hybrid-Electric+UAV+Propulsion+%E2%9C%88%EF%B8%8F;Aerothon+2026+%E2%80%A2+First+Place+%F0%9F%8F%86;B.Tech+CSE+(AI%2FML)+%40+PES+University" alt="Typing SVG"/>
-</a>
+<!-- Animated aerospace scene: pilot walks to the launch gate, a Sukhoi takes off, text types below -->
+<img src="assets/hero-scene.svg" alt="Animated aerospace scene with a Sukhoi jet" width="100%"/>
 
 <br/><br/>
 
@@ -111,11 +108,3 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1128,100:00b4ff&height=120&section=footer&text=Clear%20skies%20ahead%20%E2%9C%88%EF%B8%8F&fontColor=ffffff&fontSize=22&animation=twinkling" width="100%" alt="footer"/>
 
 </div>
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=gauravmes9a11-alt&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
